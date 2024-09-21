@@ -1,0 +1,35 @@
+site_name: Addon Encyclopedia 
+site_url: https://addon-encyclopediacodeberg.page/ 
+repo_url: https://codeberg.org/addon-encyclopedia/source
+edit_uri: _edit/master/docs/
+
+plugins:
+  - search
+markdown_extensions:
+  - pymdownx.superfences
+  - pymdownx.details
+  - admonition
+  - footnotes
+theme:
+  name: material
+  logo: assets/bedrock.png
+  favicon: assets/bedrock.png
+  features:
+    - navigation.footer  
+  icon:
+    repo: fontawesome/brands/git-alt
+    edit: material/pencil 
+    view: material/eye
+  palette: 
+
+    # Palette toggle for light mode
+    - scheme: default
+      toggle:
+        icon: material/brightness-7 
+        name: Switch to dark mode
+
+    # Palette toggle for dark mode
+    - scheme: slate
+      toggle:
+        icon: material/brightness-4
+        name: Switch to light mode  
