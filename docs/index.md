@@ -1,17 +1,17 @@
-# Welcome to MkDocs
+# 主页
 
-For full documentation visit [mkdocs.org](https://www.mkdocs.org).
+这个站点将提供 Minecraft Addon（附加包）的相关文档与教程
 
-## Commands
+## 什么是 Minecraft？
+Minecraft 是由 Mojang Studios 开发的一款3D沙盒电子游戏。玩家可在游戏中无拘无束地在3个维度内与由方块和实体构成的世界互动 多种玩法可供玩家选择，带来无限可能。
 
-* `mkdocs new [dir-name]` - Create a new project.
-* `mkdocs serve` - Start the live-reloading docs server.
-* `mkdocs build` - Build the documentation site.
-* `mkdocs -h` - Print help message and exit.
+基岩版是多平台版本的 Minecraft，基于与携带版一脉相承的游戏引擎基岩引擎。
 
-## Project layout
+——摘自[Minecraft Wiki](https://zh.minecraft.wiki/基岩版)，有改动
 
-    mkdocs.yml    # The configuration file.
-    docs/
-        index.md  # The documentation homepage.
-        ...       # Other markdown pages, images and other files.
+## 什么是附加包？
+附加包允许玩家更改世界的纹理样貌、实体的模型、行为规则等，是实现 Minecraft 全版本自定义的坚实一步。
+
+行为包是一种用于改变实体的行为、掉落物、生成规则、物品合成配方与村民交易表等的附加包，其不仅可以改变现有内容，还可以创建新的实体、方块及物品；而资源包属于附加包的一部分，和行为包并列，同时区分原版资源包与自定义资源包，原版资源包用于为游戏加入新内容而准备。
+
+——摘自[Minecraft Wiki](https://zh.minecraft.wiki/附加包)，有改动

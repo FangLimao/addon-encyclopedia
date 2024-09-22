@@ -1,11 +1,56 @@
 site_name: Addon Encyclopedia 
 site_url: https://addon-encyclopediacodeberg.page/ 
 repo_url: https://codeberg.org/addon-encyclopedia/source
-edit_uri: _edit/master/docs/
+edit_uri: _edit/main/docs/
+copyright: 如无特殊说明，本网站内容采用 CC BY-NC-SA 4.0 协议进行许可
 
+nav:
+  - 简介:
+    - 主页: index.md
+  - 资源: 
+    - 原版附加包: resource/vanilla-pack.md
+    - UUID生成器: resource/uuid.md
+    - 方块渲染器: resource/block-renderer.md
+  - 文档:    
+    - 物品:
+      - 简介: doc/item/index.md 
+      - 描述: doc/item/description.md
+      - 标签: doc/item/tags.md
+      - 组件:
+        - allow_off_hand: doc/item/components/allow_off_hand.md
+        - block_placer: doc/item/components/block_placer.md
+        - can_destroy_in_creative: doc/item/components/can_destroy_in_creative.md
+        - cooldown: doc/item/components/cooldown.md
+        - damage: doc/item/components/damage.md
+        - digger: doc/item/components/digger.md
+        - display_name: doc/item/components/display_name.md
+        - durability: doc/item/components/durability.md
+        - enchantable: doc/item/components/enchantable.md
+        - entity_placer: doc/item/components/entity_placer.md
+        - food: doc/item/components/food.md
+        - fuel: doc/item/components/fuel.md
+        - glint: doc/item/components/glint.md
+        - hand_equipped: doc/item/components/hand_equipped.md
+        - hover_text_color: doc/item/components/hover_text_color.md
+        - icon: doc/item/components/icon.md
+        - interact_button: doc/item/components/interact_button.md
+        - liquid_clipped: doc/item/components/liquid_clipped.md
+        - max_stack_size: doc/item/components/max_stack_size.md
+        - projectile: doc/item/components/projectile.md
+        - record: doc/item/components/record.md
+        - repairable: doc/item/components/repairable.md
+        - shooter: doc/item/components/shooter.md
+        - should_despawn: doc/item/components/should_despawn.md
+        - stacked_by_data: doc/item/components/stacked_by_data.md
+        - tags: doc/item/components/tags.md
+        - throwable: doc/item/components/throwable.md
+        - use_animation: doc/item/components/use_animation.md
+        - use_modifiers: doc/item/components/use_modifiers.md
+        - wearable: doc/item/components/wearable.md
 plugins:
   - search
 markdown_extensions:
+  - attr_list
   - pymdownx.superfences
   - pymdownx.details
   - admonition
@@ -15,7 +60,14 @@ theme:
   logo: assets/bedrock.png
   favicon: assets/bedrock.png
   features:
-    - navigation.footer  
+    - navigation.footer 
+    - header.autohide  
+    - navigation.tabs 
+    - navigation.tabs.sticky 
+    - navigation.top
+    - toc.integrate
+    - navigation.expand
+    - navigation.sections                
   icon:
     repo: fontawesome/brands/git-alt
     edit: material/pencil 
