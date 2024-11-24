@@ -1,21 +1,39 @@
 site_name: Addon Encyclopedia 
-site_url: https://addon-encyclopediacodeberg.page/ 
-repo_url: https://codeberg.org/addon-encyclopedia/source
+site_url: https://fanglimao.github.io/addon-encyclopedia
+repo_url: https://github.com/fanglimao/addon-encyclopedia
 edit_uri: _edit/main/docs/
 copyright: 如无特殊说明，本网站内容采用 CC BY-NC-SA 4.0 协议进行许可
 
 nav:
-  - 简介:
-    - 主页: index.md
-  - 资源: 
-    - 原版附加包: resource/vanilla-pack.md
-    - UUID生成器: resource/uuid.md
-    - 方块渲染器: resource/block-renderer.md
-  - 文档:    
+  - 主页: index.md
+  - 入门教程:
+    - 什么是附加包: tutorial/start.md
+    - 认识JSON: tutorial/json.md
+    - 第一个附加包: tutorial/first-addon.md  
+  - 物品:
+    - 简介: item/index.md
+    - 描述: item/description.md
+    - 标签: item/tags.md
+  - 配方:
+    - 简介: recipe/index.md
+    - 标签: recipe/tags.md
+    - 配方解锁: recipe/unlock.md
+  - 脚本:
+    - 自定义组件: script/custom-components.md
+  - 文本:
+    - 格式化代码: text/format-code.md
+  - 工具与资源: 
+    - 资源:
+      - 原版附加包: resource/vanilla-pack.md
+    - 在线工具:
+      - UUID生成器: resource/uuid.md
+      - 方块渲染器: resource/block-renderer.md
+    - 代码编辑器:
+      - Bridge.: resource/bridge.md
+      - VS Code: resource/vsc.md
+      - MT管理器: resource/mt.md
+  - 参考文档:    
     - 物品:
-      - 简介: doc/item/index.md 
-      - 描述: doc/item/description.md
-      - 标签: doc/item/tags.md
       - 组件:
         - allow_off_hand: doc/item/components/allow_off_hand.md
         - block_placer: doc/item/components/block_placer.md
@@ -55,6 +73,7 @@ markdown_extensions:
   - pymdownx.details
   - admonition
   - footnotes
+  - md_in_html  
 theme:
   name: material
   logo: assets/bedrock.png
