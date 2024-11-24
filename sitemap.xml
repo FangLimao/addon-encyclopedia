@@ -6,6 +6,11 @@
          <changefreq>daily</changefreq>
     </url>
     <url>
+         <loc>https://fanglimao.github.io/addon-encyclopedia/doc/format-code/</loc>
+         <lastmod>2024-11-24</lastmod>
+         <changefreq>daily</changefreq>
+    </url>
+    <url>
          <loc>https://fanglimao.github.io/addon-encyclopedia/doc/item/components/allow_off_hand/</loc>
          <lastmod>2024-11-24</lastmod>
          <changefreq>daily</changefreq>
@@ -201,6 +206,11 @@
          <changefreq>daily</changefreq>
     </url>
     <url>
+         <loc>https://fanglimao.github.io/addon-encyclopedia/resource/script-lib/</loc>
+         <lastmod>2024-11-24</lastmod>
+         <changefreq>daily</changefreq>
+    </url>
+    <url>
          <loc>https://fanglimao.github.io/addon-encyclopedia/resource/uuid/</loc>
          <lastmod>2024-11-24</lastmod>
          <changefreq>daily</changefreq>
@@ -216,12 +226,22 @@
          <changefreq>daily</changefreq>
     </url>
     <url>
-         <loc>https://fanglimao.github.io/addon-encyclopedia/script/custom-components/</loc>
+         <loc>https://fanglimao.github.io/addon-encyclopedia/resource/editor/deferred-lighting/</loc>
          <lastmod>2024-11-24</lastmod>
          <changefreq>daily</changefreq>
     </url>
     <url>
-         <loc>https://fanglimao.github.io/addon-encyclopedia/text/format-code/</loc>
+         <loc>https://fanglimao.github.io/addon-encyclopedia/resource/editor/overview/</loc>
+         <lastmod>2024-11-24</lastmod>
+         <changefreq>daily</changefreq>
+    </url>
+    <url>
+         <loc>https://fanglimao.github.io/addon-encyclopedia/resource/editor/ui/</loc>
+         <lastmod>2024-11-24</lastmod>
+         <changefreq>daily</changefreq>
+    </url>
+    <url>
+         <loc>https://fanglimao.github.io/addon-encyclopedia/script/custom-components/</loc>
          <lastmod>2024-11-24</lastmod>
          <changefreq>daily</changefreq>
     </url>
