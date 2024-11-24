@@ -1,7 +1,5 @@
 site_name: Addon Encyclopedia 
 site_url: https://fanglimao.github.io/addon-encyclopedia
-repo_url: https://github.com/fanglimao/addon-encyclopedia
-edit_uri: _edit/main/docs/
 copyright: 如无特殊说明，本网站内容采用 CC BY-NC-SA 4.0 协议进行许可
 
 nav:
@@ -91,16 +89,21 @@ theme:
     repo: fontawesome/brands/git-alt
     edit: material/pencil 
     view: material/eye
-  palette: 
-
+  palette:
     # Palette toggle for light mode
-    - scheme: default
+    - media: "(prefers-color-scheme: light)"
+      scheme: default
+      primary: white
+      accent: red
       toggle:
-        icon: material/brightness-7 
+        icon: material/weather-sunny
         name: Switch to dark mode
 
     # Palette toggle for dark mode
-    - scheme: slate
+    - media: "(prefers-color-scheme: dark)"
+      scheme: slate
+      primary: black
+      accent: blue
       toggle:
-        icon: material/brightness-4
-        name: Switch to light mode  
+        icon: material/weather-night
+        name: Switch to light mode
