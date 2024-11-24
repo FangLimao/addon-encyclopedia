@@ -19,6 +19,7 @@ nav:
   - 脚本:
     - 自定义组件: script/custom-components.md
   - 工具与资源: 
+    - 开源脚本库: resource/script-lib.md
     - 编辑器:
       - 编辑器概述: resource/editor/overview.md
       - 用户界面: resource/editor/ui.md
