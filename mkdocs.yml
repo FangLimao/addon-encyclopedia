@@ -4,7 +4,7 @@ copyright: 如无特殊说明，本网站内容采用 CC BY-NC-SA 4.0 协议进�
 
 nav:
   - 主页: index.md
-  - 入门教程:
+  - 教程:
     - 什么是附加包: tutorial/start.md
     - 认识JSON: tutorial/json.md
     - 第一个附加包: tutorial/first-addon.md  
@@ -12,6 +12,8 @@ nav:
     - 简介: item/index.md
     - 描述: item/description.md
     - 标签: item/tags.md
+  - 方块:
+    - 标签: block/tags.md
   - 配方:
     - 简介: recipe/index.md
     - 标签: recipe/tags.md
@@ -34,39 +36,40 @@ nav:
       - VS Code: resource/vsc.md
       - MT管理器: resource/mt.md
   - 参考文档: 
-    - 格式化代码: doc/format-code.md   
-    - 物品:
-      - 组件:
-        - allow_off_hand: doc/item/components/allow_off_hand.md
-        - block_placer: doc/item/components/block_placer.md
-        - can_destroy_in_creative: doc/item/components/can_destroy_in_creative.md
-        - cooldown: doc/item/components/cooldown.md
-        - damage: doc/item/components/damage.md
-        - digger: doc/item/components/digger.md
-        - display_name: doc/item/components/display_name.md
-        - durability: doc/item/components/durability.md
-        - enchantable: doc/item/components/enchantable.md
-        - entity_placer: doc/item/components/entity_placer.md
-        - food: doc/item/components/food.md
-        - fuel: doc/item/components/fuel.md
-        - glint: doc/item/components/glint.md
-        - hand_equipped: doc/item/components/hand_equipped.md
-        - hover_text_color: doc/item/components/hover_text_color.md
-        - icon: doc/item/components/icon.md
-        - interact_button: doc/item/components/interact_button.md
-        - liquid_clipped: doc/item/components/liquid_clipped.md
-        - max_stack_size: doc/item/components/max_stack_size.md
-        - projectile: doc/item/components/projectile.md
-        - record: doc/item/components/record.md
-        - repairable: doc/item/components/repairable.md
-        - shooter: doc/item/components/shooter.md
-        - should_despawn: doc/item/components/should_despawn.md
-        - stacked_by_data: doc/item/components/stacked_by_data.md
-        - tags: doc/item/components/tags.md
-        - throwable: doc/item/components/throwable.md
-        - use_animation: doc/item/components/use_animation.md
-        - use_modifiers: doc/item/components/use_modifiers.md
-        - wearable: doc/item/components/wearable.md
+    - 格式化代码: reference/format-code.md   
+    - 数据驱动:
+      - 内容文件: reference/data-driven/contents.md
+    - 物品组件:
+      - allow_off_hand: reference/item/components/allow_off_hand.md
+      - block_placer: reference/item/components/block_placer.md
+      - can_destroy_in_creative: reference/item/components/can_destroy_in_creative.md
+      - cooldown: reference/item/components/cooldown.md
+      - damage: reference/item/components/damage.md
+      - digger: reference/item/components/digger.md
+      - display_name: reference/item/components/display_name.md
+      - durability: reference/item/components/durability.md
+      - enchantable: reference/item/components/enchantable.md
+      - entity_placer: reference/item/components/entity_placer.md
+      - food: reference/item/components/food.md
+      - fuel: reference/item/components/fuel.md
+      - glint: reference/item/components/glint.md
+      - hand_equipped: reference/item/components/hand_equipped.md
+      - hover_text_color: reference/item/components/hover_text_color.md
+      - icon: reference/item/components/icon.md
+      - interact_button: reference/item/components/interact_button.md
+      - liquid_clipped: reference/item/components/liquid_clipped.md
+      - max_stack_size: reference/item/components/max_stack_size.md
+      - projectile: reference/item/components/projectile.md
+      - record: reference/item/components/record.md
+      - repairable: reference/item/components/repairable.md
+      - shooter: reference/item/components/shooter.md
+      - should_despawn: reference/item/components/should_despawn.md
+      - stacked_by_data: reference/item/components/stacked_by_data.md
+      - tags: reference/item/components/tags.md
+      - throwable: reference/item/components/throwable.md
+      - use_animation: reference/item/components/use_animation.md
+      - use_modifiers: reference/item/components/use_modifiers.md
+      - wearable: reference/item/components/wearable.md
 plugins:
   - search
 markdown_extensions:
@@ -112,7 +115,7 @@ theme:
       accent: red
       toggle:
         icon: material/weather-sunny
-        name: Switch to dark mode
+        name: 切换至深色模式
 
     # Palette toggle for dark mode
     - media: "(prefers-color-scheme: dark)"
@@ -121,4 +124,4 @@ theme:
       accent: blue
       toggle:
         icon: material/weather-night
-        name: Switch to light mode
+        name: 切换至浅色模式
