@@ -61,6 +61,7 @@ nav:
       - liquid_clipped: reference/item/components/liquid_clipped.md
       - max_stack_size: reference/item/components/max_stack_size.md
       - projectile: reference/item/components/projectile.md
+      - rarity: reference/item/components/rarity.md
       - record: reference/item/components/record.md
       - repairable: reference/item/components/repairable.md
       - shooter: reference/item/components/shooter.md
