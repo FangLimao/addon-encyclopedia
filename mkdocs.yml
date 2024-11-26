@@ -42,6 +42,7 @@ nav:
     - 物品组件:
       - allow_off_hand: reference/item/components/allow_off_hand.md
       - block_placer: reference/item/components/block_placer.md
+      - bundle_interaction: reference/item/components/bundle_interaction.md
       - can_destroy_in_creative: reference/item/components/can_destroy_in_creative.md
       - cooldown: reference/item/components/cooldown.md
       - damage: reference/item/components/damage.md
