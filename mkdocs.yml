@@ -39,6 +39,9 @@ nav:
     - 格式化代码: reference/format-code.md   
     - 数据驱动:
       - 内容文件: reference/data-driven/contents.md
+    - 方块组件: 
+      - breathability: reference/block/components/breathability.md
+      - collision_box: reference/block/components/collision_box.md
     - 物品组件:
       - allow_off_hand: reference/item/components/allow_off_hand.md
       - block_placer: reference/item/components/block_placer.md

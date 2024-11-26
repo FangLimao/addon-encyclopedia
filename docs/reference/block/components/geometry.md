@@ -1,12 +1,12 @@
 ---
 author: iconicNurdle
 ms.author: mikeam
-title: Block Documentation - minecraft:geometry
+title: 方块组件 - minecraft:geometry
 description: "A reference document detailing the 'geometry' block component"
 ms.service: minecraft-bedrock-edition
 ---
 
-# Block Documentation - minecraft:geometry
+# 方块组件 - minecraft:geometry
 
 `minecraft:geometry` is an `Identifier String` component that specifies the geometry description identifier to use to render this block. This identifier must match an existing geometry identifier in any of the currently loaded resource packs.
 

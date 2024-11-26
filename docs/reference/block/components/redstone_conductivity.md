@@ -1,12 +1,12 @@
 ---
 author: iconicNurdle
 ms.author: mikeam
-title: Block Documentation - minecraft:redstone_conductivity
+title: 方块组件 - minecraft:redstone_conductivity
 description: "A reference document detailing the 'redstone_conductivity' block component"
 ms.service: minecraft-bedrock-edition
 ---
 
-# Block Documentation - minecraft:redstone_conductivity
+# 方块组件 - minecraft:redstone_conductivity
 
 `minecraft:redstone_conductivity` specifies whether a block has redstone properties. If the component is not provided, the default values are used. 
 

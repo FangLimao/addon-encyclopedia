@@ -1,18 +1,18 @@
 ---
 author: JimSeaman42
 ms.author: mikeam
-title: Block Documentation - minecraft:transformation
+title: 方块组件 - minecraft:transformation
 description: "A reference document detailing the 'transformation' block component"
 ms.service: minecraft-bedrock-edition
 ---
 
-# Block Documentation - minecraft:transformation
+# 方块组件 - minecraft:transformation
 
 `minecraft:transformation` supports rotation, scaling, and translation. Rotation and scaling around a pivot is also supported. The component can be added to a whole block and/or to individual block permutations. Transformed geometries retain the same restrictions that non-transformed geometries have, such as a maximum size of 30/16 units.
 
 ## Parameters
 
-| Name | Type | Default Value | Description |
+| 名称 | 默认值 | 类型 | 说明  |
 |:----|:----|:----|:----|
 | translation | Vector [a, b, c] | [0, 0, 0] | Amount the block should be translated along each axis. "Translation" is specified as [x, y, z] using floating point values. |
 | scale | Vector [a, b, c] | [1, 1, 1] | Amount the block should be scaled along each axis. "Scale" is specified as [x, y, z] using floating point values. |
@@ -20,7 +20,7 @@ ms.service: minecraft-bedrock-edition
 | rotation | Vector [a, b, c] | [0, 0, 0] | Amount in degrees the block should be rotated on each axis. "rotation" is specified as [x, y, z] using floating point values and must be axis aligned, otherwise the value will be rounded to the nearest axis-aligned value. |
 | rotation_pivot | Vector [a, b, c] | [0, 0, 0] | Offset to the pivot point around which to apply the rotation. "rotation_pivot" is specified as [x, y, z] using floating point values. |
 
-## Example
+## 范例
 
 ```json
 "minecraft:transformation": {
@@ -30,7 +30,7 @@ ms.service: minecraft-bedrock-edition
 }
 ```
 
-## Example (Pivots)
+## 范例 (Pivots)
 
 ```json
 "minecraft:transformation": {

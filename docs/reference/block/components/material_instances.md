@@ -1,12 +1,12 @@
 ---
 author: iconicNurdle
 ms.author: mikeam
-title: Block Documentation - minecraft:material_instances
+title: 方块组件 - minecraft:material_instances
 description: "A reference document detailing the 'material_instances' block component"
 ms.service: minecraft-bedrock-edition
 ---
 
-# Block Documentation - minecraft:material_instances
+# 方块组件 - minecraft:material_instances
 
 `minecraft:material_instances` is a `JSON Object` component that specifies the material instances for a block. The object contains a map that maps face or material_instance names in a geometry file to an actual material instance. You can assign a material instance object to any of these faces: `up`, `down`, `north`, `south`, `east`, `west`, or `*`. You can also give an instance the name of your choosing such as `my_instance`, and then assign it to a face by doing `"north": "my_instance"`.
 
@@ -41,7 +41,7 @@ For more information about custom block render distance, see the [Custom Block R
 | alpha_test | Used for a block like the monster spawner. Does not allow for translucency, only fully opaque or fully transparent textures. Also disabled backface culling |
 | alpha_test_single_sided | Used for a block like the (unstained) glass. Does not allow for translucency, only fully opaque or fully transparent textures. Also enables backface culling |
 
-## Example (using * and all parameters of a material instance)
+## 范例 (using * and all parameters of a material instance)
 
 ```json
 "minecraft:material_instances": {
@@ -54,7 +54,7 @@ For more information about custom block render distance, see the [Custom Block R
 }
 ```
 
-## Example (using faces and a custom named material instance)
+## 范例 (using faces and a custom named material instance)
 
 ```json
 "minecraft:material_instances": {
