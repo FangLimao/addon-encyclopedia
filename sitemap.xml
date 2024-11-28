@@ -2,417 +2,447 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
     <url>
          <loc>https://fanglimao.github.io/addon-encyclopedia/</loc>
-         <lastmod>2024-11-26</lastmod>
+         <lastmod>2024-11-28</lastmod>
          <changefreq>daily</changefreq>
     </url>
     <url>
          <loc>https://fanglimao.github.io/addon-encyclopedia/block/</loc>
-         <lastmod>2024-11-26</lastmod>
+         <lastmod>2024-11-28</lastmod>
          <changefreq>daily</changefreq>
     </url>
     <url>
          <loc>https://fanglimao.github.io/addon-encyclopedia/block/BlockDefinitionProperties/</loc>
-         <lastmod>2024-11-26</lastmod>
+         <lastmod>2024-11-28</lastmod>
          <changefreq>daily</changefreq>
     </url>
     <url>
          <loc>https://fanglimao.github.io/addon-encyclopedia/block/block-item/</loc>
-         <lastmod>2024-11-26</lastmod>
+         <lastmod>2024-11-28</lastmod>
          <changefreq>daily</changefreq>
     </url>
     <url>
          <loc>https://fanglimao.github.io/addon-encyclopedia/block/description/</loc>
-         <lastmod>2024-11-26</lastmod>
+         <lastmod>2024-11-28</lastmod>
          <changefreq>daily</changefreq>
     </url>
     <url>
          <loc>https://fanglimao.github.io/addon-encyclopedia/block/tags/</loc>
-         <lastmod>2024-11-26</lastmod>
+         <lastmod>2024-11-28</lastmod>
          <changefreq>daily</changefreq>
     </url>
     <url>
          <loc>https://fanglimao.github.io/addon-encyclopedia/block/traits/</loc>
-         <lastmod>2024-11-26</lastmod>
+         <lastmod>2024-11-28</lastmod>
          <changefreq>daily</changefreq>
     </url>
     <url>
          <loc>https://fanglimao.github.io/addon-encyclopedia/item/</loc>
-         <lastmod>2024-11-26</lastmod>
+         <lastmod>2024-11-28</lastmod>
          <changefreq>daily</changefreq>
     </url>
     <url>
          <loc>https://fanglimao.github.io/addon-encyclopedia/item/description/</loc>
-         <lastmod>2024-11-26</lastmod>
+         <lastmod>2024-11-28</lastmod>
          <changefreq>daily</changefreq>
     </url>
     <url>
          <loc>https://fanglimao.github.io/addon-encyclopedia/item/tags/</loc>
-         <lastmod>2024-11-26</lastmod>
+         <lastmod>2024-11-28</lastmod>
          <changefreq>daily</changefreq>
     </url>
     <url>
          <loc>https://fanglimao.github.io/addon-encyclopedia/recipe/</loc>
-         <lastmod>2024-11-26</lastmod>
+         <lastmod>2024-11-28</lastmod>
          <changefreq>daily</changefreq>
     </url>
     <url>
          <loc>https://fanglimao.github.io/addon-encyclopedia/recipe/tags/</loc>
-         <lastmod>2024-11-26</lastmod>
+         <lastmod>2024-11-28</lastmod>
          <changefreq>daily</changefreq>
     </url>
     <url>
          <loc>https://fanglimao.github.io/addon-encyclopedia/recipe/unlock/</loc>
-         <lastmod>2024-11-26</lastmod>
+         <lastmod>2024-11-28</lastmod>
          <changefreq>daily</changefreq>
     </url>
     <url>
          <loc>https://fanglimao.github.io/addon-encyclopedia/reference/format-code/</loc>
-         <lastmod>2024-11-26</lastmod>
+         <lastmod>2024-11-28</lastmod>
          <changefreq>daily</changefreq>
     </url>
     <url>
          <loc>https://fanglimao.github.io/addon-encyclopedia/reference/block/culling/</loc>
-         <lastmod>2024-11-26</lastmod>
+         <lastmod>2024-11-28</lastmod>
          <changefreq>daily</changefreq>
     </url>
     <url>
          <loc>https://fanglimao.github.io/addon-encyclopedia/reference/block/states-permutations/</loc>
-         <lastmod>2024-11-26</lastmod>
+         <lastmod>2024-11-28</lastmod>
          <changefreq>daily</changefreq>
     </url>
     <url>
          <loc>https://fanglimao.github.io/addon-encyclopedia/reference/block/states-traits/</loc>
-         <lastmod>2024-11-26</lastmod>
-         <changefreq>daily</changefreq>
-    </url>
-    <url>
-         <loc>https://fanglimao.github.io/addon-encyclopedia/reference/block/components/BlockComponentsList/</loc>
-         <lastmod>2024-11-26</lastmod>
+         <lastmod>2024-11-28</lastmod>
          <changefreq>daily</changefreq>
     </url>
     <url>
          <loc>https://fanglimao.github.io/addon-encyclopedia/reference/block/components/breathability/</loc>
-         <lastmod>2024-11-26</lastmod>
+         <lastmod>2024-11-28</lastmod>
          <changefreq>daily</changefreq>
     </url>
     <url>
          <loc>https://fanglimao.github.io/addon-encyclopedia/reference/block/components/collision_box/</loc>
-         <lastmod>2024-11-26</lastmod>
+         <lastmod>2024-11-28</lastmod>
          <changefreq>daily</changefreq>
     </url>
     <url>
          <loc>https://fanglimao.github.io/addon-encyclopedia/reference/block/components/crafting_table/</loc>
-         <lastmod>2024-11-26</lastmod>
+         <lastmod>2024-11-28</lastmod>
          <changefreq>daily</changefreq>
     </url>
     <url>
          <loc>https://fanglimao.github.io/addon-encyclopedia/reference/block/components/destructible_by_explosion/</loc>
-         <lastmod>2024-11-26</lastmod>
+         <lastmod>2024-11-28</lastmod>
          <changefreq>daily</changefreq>
     </url>
     <url>
          <loc>https://fanglimao.github.io/addon-encyclopedia/reference/block/components/destructible_by_mining/</loc>
-         <lastmod>2024-11-26</lastmod>
+         <lastmod>2024-11-28</lastmod>
          <changefreq>daily</changefreq>
     </url>
     <url>
          <loc>https://fanglimao.github.io/addon-encyclopedia/reference/block/components/display_name/</loc>
-         <lastmod>2024-11-26</lastmod>
+         <lastmod>2024-11-28</lastmod>
          <changefreq>daily</changefreq>
     </url>
     <url>
          <loc>https://fanglimao.github.io/addon-encyclopedia/reference/block/components/flammable/</loc>
-         <lastmod>2024-11-26</lastmod>
+         <lastmod>2024-11-28</lastmod>
          <changefreq>daily</changefreq>
     </url>
     <url>
          <loc>https://fanglimao.github.io/addon-encyclopedia/reference/block/components/friction/</loc>
-         <lastmod>2024-11-26</lastmod>
+         <lastmod>2024-11-28</lastmod>
          <changefreq>daily</changefreq>
     </url>
     <url>
          <loc>https://fanglimao.github.io/addon-encyclopedia/reference/block/components/geometry/</loc>
-         <lastmod>2024-11-26</lastmod>
+         <lastmod>2024-11-28</lastmod>
          <changefreq>daily</changefreq>
     </url>
     <url>
          <loc>https://fanglimao.github.io/addon-encyclopedia/reference/block/components/item_visual/</loc>
-         <lastmod>2024-11-26</lastmod>
+         <lastmod>2024-11-28</lastmod>
          <changefreq>daily</changefreq>
     </url>
     <url>
          <loc>https://fanglimao.github.io/addon-encyclopedia/reference/block/components/light_dampening/</loc>
-         <lastmod>2024-11-26</lastmod>
+         <lastmod>2024-11-28</lastmod>
          <changefreq>daily</changefreq>
     </url>
     <url>
          <loc>https://fanglimao.github.io/addon-encyclopedia/reference/block/components/light_emission/</loc>
-         <lastmod>2024-11-26</lastmod>
+         <lastmod>2024-11-28</lastmod>
          <changefreq>daily</changefreq>
     </url>
     <url>
          <loc>https://fanglimao.github.io/addon-encyclopedia/reference/block/components/loot/</loc>
-         <lastmod>2024-11-26</lastmod>
+         <lastmod>2024-11-28</lastmod>
          <changefreq>daily</changefreq>
     </url>
     <url>
          <loc>https://fanglimao.github.io/addon-encyclopedia/reference/block/components/map_color/</loc>
-         <lastmod>2024-11-26</lastmod>
+         <lastmod>2024-11-28</lastmod>
          <changefreq>daily</changefreq>
     </url>
     <url>
          <loc>https://fanglimao.github.io/addon-encyclopedia/reference/block/components/material_instances/</loc>
-         <lastmod>2024-11-26</lastmod>
+         <lastmod>2024-11-28</lastmod>
          <changefreq>daily</changefreq>
     </url>
     <url>
          <loc>https://fanglimao.github.io/addon-encyclopedia/reference/block/components/placement_filter/</loc>
-         <lastmod>2024-11-26</lastmod>
+         <lastmod>2024-11-28</lastmod>
          <changefreq>daily</changefreq>
     </url>
     <url>
          <loc>https://fanglimao.github.io/addon-encyclopedia/reference/block/components/redstone_conductivity/</loc>
-         <lastmod>2024-11-26</lastmod>
+         <lastmod>2024-11-28</lastmod>
          <changefreq>daily</changefreq>
     </url>
     <url>
          <loc>https://fanglimao.github.io/addon-encyclopedia/reference/block/components/selection_box/</loc>
-         <lastmod>2024-11-26</lastmod>
+         <lastmod>2024-11-28</lastmod>
          <changefreq>daily</changefreq>
     </url>
     <url>
          <loc>https://fanglimao.github.io/addon-encyclopedia/reference/block/components/tag/</loc>
-         <lastmod>2024-11-26</lastmod>
+         <lastmod>2024-11-28</lastmod>
          <changefreq>daily</changefreq>
     </url>
     <url>
          <loc>https://fanglimao.github.io/addon-encyclopedia/reference/block/components/transformation/</loc>
-         <lastmod>2024-11-26</lastmod>
+         <lastmod>2024-11-28</lastmod>
          <changefreq>daily</changefreq>
     </url>
     <url>
          <loc>https://fanglimao.github.io/addon-encyclopedia/reference/data-driven/contents/</loc>
-         <lastmod>2024-11-26</lastmod>
+         <lastmod>2024-11-28</lastmod>
          <changefreq>daily</changefreq>
     </url>
     <url>
          <loc>https://fanglimao.github.io/addon-encyclopedia/reference/item/components/allow_off_hand/</loc>
-         <lastmod>2024-11-26</lastmod>
+         <lastmod>2024-11-28</lastmod>
          <changefreq>daily</changefreq>
     </url>
     <url>
          <loc>https://fanglimao.github.io/addon-encyclopedia/reference/item/components/block_placer/</loc>
-         <lastmod>2024-11-26</lastmod>
+         <lastmod>2024-11-28</lastmod>
+         <changefreq>daily</changefreq>
+    </url>
+    <url>
+         <loc>https://fanglimao.github.io/addon-encyclopedia/reference/item/components/bundle_interaction/</loc>
+         <lastmod>2024-11-28</lastmod>
          <changefreq>daily</changefreq>
     </url>
     <url>
          <loc>https://fanglimao.github.io/addon-encyclopedia/reference/item/components/can_destroy_in_creative/</loc>
-         <lastmod>2024-11-26</lastmod>
+         <lastmod>2024-11-28</lastmod>
          <changefreq>daily</changefreq>
     </url>
     <url>
          <loc>https://fanglimao.github.io/addon-encyclopedia/reference/item/components/cooldown/</loc>
-         <lastmod>2024-11-26</lastmod>
+         <lastmod>2024-11-28</lastmod>
          <changefreq>daily</changefreq>
     </url>
     <url>
          <loc>https://fanglimao.github.io/addon-encyclopedia/reference/item/components/damage/</loc>
-         <lastmod>2024-11-26</lastmod>
+         <lastmod>2024-11-28</lastmod>
          <changefreq>daily</changefreq>
     </url>
     <url>
          <loc>https://fanglimao.github.io/addon-encyclopedia/reference/item/components/digger/</loc>
-         <lastmod>2024-11-26</lastmod>
+         <lastmod>2024-11-28</lastmod>
          <changefreq>daily</changefreq>
     </url>
     <url>
          <loc>https://fanglimao.github.io/addon-encyclopedia/reference/item/components/display_name/</loc>
-         <lastmod>2024-11-26</lastmod>
+         <lastmod>2024-11-28</lastmod>
          <changefreq>daily</changefreq>
     </url>
     <url>
          <loc>https://fanglimao.github.io/addon-encyclopedia/reference/item/components/durability/</loc>
-         <lastmod>2024-11-26</lastmod>
+         <lastmod>2024-11-28</lastmod>
          <changefreq>daily</changefreq>
     </url>
     <url>
          <loc>https://fanglimao.github.io/addon-encyclopedia/reference/item/components/enchantable/</loc>
-         <lastmod>2024-11-26</lastmod>
+         <lastmod>2024-11-28</lastmod>
          <changefreq>daily</changefreq>
     </url>
     <url>
          <loc>https://fanglimao.github.io/addon-encyclopedia/reference/item/components/entity_placer/</loc>
-         <lastmod>2024-11-26</lastmod>
+         <lastmod>2024-11-28</lastmod>
          <changefreq>daily</changefreq>
     </url>
     <url>
          <loc>https://fanglimao.github.io/addon-encyclopedia/reference/item/components/food/</loc>
-         <lastmod>2024-11-26</lastmod>
+         <lastmod>2024-11-28</lastmod>
          <changefreq>daily</changefreq>
     </url>
     <url>
          <loc>https://fanglimao.github.io/addon-encyclopedia/reference/item/components/fuel/</loc>
-         <lastmod>2024-11-26</lastmod>
+         <lastmod>2024-11-28</lastmod>
          <changefreq>daily</changefreq>
     </url>
     <url>
          <loc>https://fanglimao.github.io/addon-encyclopedia/reference/item/components/glint/</loc>
-         <lastmod>2024-11-26</lastmod>
+         <lastmod>2024-11-28</lastmod>
          <changefreq>daily</changefreq>
     </url>
     <url>
          <loc>https://fanglimao.github.io/addon-encyclopedia/reference/item/components/hand_equipped/</loc>
-         <lastmod>2024-11-26</lastmod>
+         <lastmod>2024-11-28</lastmod>
          <changefreq>daily</changefreq>
     </url>
     <url>
          <loc>https://fanglimao.github.io/addon-encyclopedia/reference/item/components/hover_text_color/</loc>
-         <lastmod>2024-11-26</lastmod>
+         <lastmod>2024-11-28</lastmod>
          <changefreq>daily</changefreq>
     </url>
     <url>
          <loc>https://fanglimao.github.io/addon-encyclopedia/reference/item/components/icon/</loc>
-         <lastmod>2024-11-26</lastmod>
+         <lastmod>2024-11-28</lastmod>
          <changefreq>daily</changefreq>
     </url>
     <url>
          <loc>https://fanglimao.github.io/addon-encyclopedia/reference/item/components/interact_button/</loc>
-         <lastmod>2024-11-26</lastmod>
+         <lastmod>2024-11-28</lastmod>
          <changefreq>daily</changefreq>
     </url>
     <url>
          <loc>https://fanglimao.github.io/addon-encyclopedia/reference/item/components/liquid_clipped/</loc>
-         <lastmod>2024-11-26</lastmod>
+         <lastmod>2024-11-28</lastmod>
          <changefreq>daily</changefreq>
     </url>
     <url>
          <loc>https://fanglimao.github.io/addon-encyclopedia/reference/item/components/max_stack_size/</loc>
-         <lastmod>2024-11-26</lastmod>
+         <lastmod>2024-11-28</lastmod>
          <changefreq>daily</changefreq>
     </url>
     <url>
          <loc>https://fanglimao.github.io/addon-encyclopedia/reference/item/components/projectile/</loc>
-         <lastmod>2024-11-26</lastmod>
+         <lastmod>2024-11-28</lastmod>
+         <changefreq>daily</changefreq>
+    </url>
+    <url>
+         <loc>https://fanglimao.github.io/addon-encyclopedia/reference/item/components/rarity/</loc>
+         <lastmod>2024-11-28</lastmod>
          <changefreq>daily</changefreq>
     </url>
     <url>
          <loc>https://fanglimao.github.io/addon-encyclopedia/reference/item/components/record/</loc>
-         <lastmod>2024-11-26</lastmod>
+         <lastmod>2024-11-28</lastmod>
          <changefreq>daily</changefreq>
     </url>
     <url>
          <loc>https://fanglimao.github.io/addon-encyclopedia/reference/item/components/repairable/</loc>
-         <lastmod>2024-11-26</lastmod>
+         <lastmod>2024-11-28</lastmod>
          <changefreq>daily</changefreq>
     </url>
     <url>
          <loc>https://fanglimao.github.io/addon-encyclopedia/reference/item/components/shooter/</loc>
-         <lastmod>2024-11-26</lastmod>
+         <lastmod>2024-11-28</lastmod>
          <changefreq>daily</changefreq>
     </url>
     <url>
          <loc>https://fanglimao.github.io/addon-encyclopedia/reference/item/components/should_despawn/</loc>
-         <lastmod>2024-11-26</lastmod>
+         <lastmod>2024-11-28</lastmod>
          <changefreq>daily</changefreq>
     </url>
     <url>
          <loc>https://fanglimao.github.io/addon-encyclopedia/reference/item/components/stacked_by_data/</loc>
-         <lastmod>2024-11-26</lastmod>
+         <lastmod>2024-11-28</lastmod>
          <changefreq>daily</changefreq>
     </url>
     <url>
          <loc>https://fanglimao.github.io/addon-encyclopedia/reference/item/components/tags/</loc>
-         <lastmod>2024-11-26</lastmod>
+         <lastmod>2024-11-28</lastmod>
          <changefreq>daily</changefreq>
     </url>
     <url>
          <loc>https://fanglimao.github.io/addon-encyclopedia/reference/item/components/throwable/</loc>
-         <lastmod>2024-11-26</lastmod>
+         <lastmod>2024-11-28</lastmod>
          <changefreq>daily</changefreq>
     </url>
     <url>
          <loc>https://fanglimao.github.io/addon-encyclopedia/reference/item/components/use_animation/</loc>
-         <lastmod>2024-11-26</lastmod>
+         <lastmod>2024-11-28</lastmod>
          <changefreq>daily</changefreq>
     </url>
     <url>
          <loc>https://fanglimao.github.io/addon-encyclopedia/reference/item/components/use_modifiers/</loc>
-         <lastmod>2024-11-26</lastmod>
+         <lastmod>2024-11-28</lastmod>
          <changefreq>daily</changefreq>
     </url>
     <url>
          <loc>https://fanglimao.github.io/addon-encyclopedia/reference/item/components/wearable/</loc>
-         <lastmod>2024-11-26</lastmod>
+         <lastmod>2024-11-28</lastmod>
          <changefreq>daily</changefreq>
     </url>
     <url>
          <loc>https://fanglimao.github.io/addon-encyclopedia/resource/block-renderer/</loc>
-         <lastmod>2024-11-26</lastmod>
+         <lastmod>2024-11-28</lastmod>
          <changefreq>daily</changefreq>
     </url>
     <url>
          <loc>https://fanglimao.github.io/addon-encyclopedia/resource/bridge/</loc>
-         <lastmod>2024-11-26</lastmod>
+         <lastmod>2024-11-28</lastmod>
          <changefreq>daily</changefreq>
     </url>
     <url>
          <loc>https://fanglimao.github.io/addon-encyclopedia/resource/mt/</loc>
-         <lastmod>2024-11-26</lastmod>
+         <lastmod>2024-11-28</lastmod>
          <changefreq>daily</changefreq>
     </url>
     <url>
          <loc>https://fanglimao.github.io/addon-encyclopedia/resource/script-lib/</loc>
-         <lastmod>2024-11-26</lastmod>
+         <lastmod>2024-11-28</lastmod>
          <changefreq>daily</changefreq>
     </url>
     <url>
          <loc>https://fanglimao.github.io/addon-encyclopedia/resource/uuid/</loc>
-         <lastmod>2024-11-26</lastmod>
+         <lastmod>2024-11-28</lastmod>
          <changefreq>daily</changefreq>
     </url>
     <url>
          <loc>https://fanglimao.github.io/addon-encyclopedia/resource/vanilla-pack/</loc>
-         <lastmod>2024-11-26</lastmod>
+         <lastmod>2024-11-28</lastmod>
          <changefreq>daily</changefreq>
     </url>
     <url>
          <loc>https://fanglimao.github.io/addon-encyclopedia/resource/vsc/</loc>
-         <lastmod>2024-11-26</lastmod>
+         <lastmod>2024-11-28</lastmod>
          <changefreq>daily</changefreq>
     </url>
     <url>
          <loc>https://fanglimao.github.io/addon-encyclopedia/resource/editor/deferred-lighting/</loc>
-         <lastmod>2024-11-26</lastmod>
+         <lastmod>2024-11-28</lastmod>
          <changefreq>daily</changefreq>
     </url>
     <url>
          <loc>https://fanglimao.github.io/addon-encyclopedia/resource/editor/overview/</loc>
-         <lastmod>2024-11-26</lastmod>
+         <lastmod>2024-11-28</lastmod>
          <changefreq>daily</changefreq>
     </url>
     <url>
          <loc>https://fanglimao.github.io/addon-encyclopedia/resource/editor/ui/</loc>
-         <lastmod>2024-11-26</lastmod>
+         <lastmod>2024-11-28</lastmod>
          <changefreq>daily</changefreq>
     </url>
     <url>
          <loc>https://fanglimao.github.io/addon-encyclopedia/script/custom-components/</loc>
-         <lastmod>2024-11-26</lastmod>
+         <lastmod>2024-11-28</lastmod>
+         <changefreq>daily</changefreq>
+    </url>
+    <url>
+         <loc>https://fanglimao.github.io/addon-encyclopedia/tutorial/add-custom-block/</loc>
+         <lastmod>2024-11-28</lastmod>
+         <changefreq>daily</changefreq>
+    </url>
+    <url>
+         <loc>https://fanglimao.github.io/addon-encyclopedia/tutorial/add-custom-entity/</loc>
+         <lastmod>2024-11-28</lastmod>
+         <changefreq>daily</changefreq>
+    </url>
+    <url>
+         <loc>https://fanglimao.github.io/addon-encyclopedia/tutorial/add-custom-item/</loc>
+         <lastmod>2024-11-28</lastmod>
+         <changefreq>daily</changefreq>
+    </url>
+    <url>
+         <loc>https://fanglimao.github.io/addon-encyclopedia/tutorial/add-recipe/</loc>
+         <lastmod>2024-11-28</lastmod>
          <changefreq>daily</changefreq>
     </url>
     <url>
          <loc>https://fanglimao.github.io/addon-encyclopedia/tutorial/first-addon/</loc>
-         <lastmod>2024-11-26</lastmod>
+         <lastmod>2024-11-28</lastmod>
          <changefreq>daily</changefreq>
     </url>
     <url>
          <loc>https://fanglimao.github.io/addon-encyclopedia/tutorial/json/</loc>
-         <lastmod>2024-11-26</lastmod>
+         <lastmod>2024-11-28</lastmod>
+         <changefreq>daily</changefreq>
+    </url>
+    <url>
+         <loc>https://fanglimao.github.io/addon-encyclopedia/tutorial/script/</loc>
+         <lastmod>2024-11-28</lastmod>
          <changefreq>daily</changefreq>
     </url>
     <url>
          <loc>https://fanglimao.github.io/addon-encyclopedia/tutorial/start/</loc>
-         <lastmod>2024-11-26</lastmod>
+         <lastmod>2024-11-28</lastmod>
          <changefreq>daily</changefreq>
     </url>
 </urlset>
