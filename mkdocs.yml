@@ -5,9 +5,15 @@ copyright: 如无特殊说明，本网站内容采用 CC BY-NC-SA 4.0 协议进�
 nav:
   - 主页: index.md
   - 教程:
-    - 什么是附加包: tutorial/start.md
-    - 认识JSON: tutorial/json.md
-    - 第一个附加包: tutorial/first-addon.md  
+    - 附加包入门:
+      - 什么是附加包: tutorial/start.md
+      - 认识JSON: tutorial/json.md
+      - 启动项目: tutorial/first-addon.md  
+      - 自定义物品: tutorial/add-custom-item.md
+      - 自定义方块: tutorial/add-custom-block.md
+      - 添加配方: tutorial/add-recipe.md
+      - 自定义实体: tutorial/add-custom-entity.md
+      - 脚本初步: tutorial/script.md
   - 物品:
     - 简介: item/index.md
     - 描述: item/description.md
