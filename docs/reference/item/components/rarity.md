@@ -1,4 +1,7 @@
 # 物品组件 - minecraft:rarity
+!!! info "版权说明"
+    本文译自[微软开发文档](https://learn.microsoft.com/en-us/minecraft/creator/)，按照 CC BY 4.0 协议进行许可
+    
 `minecraft:rarity`组件指定物品的稀有度。
 
 物品的稀有度将决定其名称的颜色，但当物品指定了`minecraft:hover_text_color`组件时，`minecraft:hover_text_color`指定的颜色将覆盖稀有度颜色。

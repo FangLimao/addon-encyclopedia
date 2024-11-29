@@ -1,4 +1,7 @@
 # 物品组件 - minecraft:repairable
+!!! info "版权说明"
+    本文译自[微软开发文档](https://learn.microsoft.com/en-us/minecraft/creator/)，按照 CC BY 4.0 协议进行许可
+    
 `minecraft:repairable`组件决定如何修复这个物品，以及修复后恢复的耐久值。
 
 ## 参数

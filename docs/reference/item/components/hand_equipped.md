@@ -1,5 +1,7 @@
-
 # 物品组件 - minecraft:hand_equipped
+!!! info "版权说明"
+    本文译自[微软开发文档](https://learn.microsoft.com/en-us/minecraft/creator/)，按照 CC BY 4.0 协议进行许可
+    
 `minecraft:hand_equipped`组件决定物品在手中是否以工具形式握持。
 
 ## 参数

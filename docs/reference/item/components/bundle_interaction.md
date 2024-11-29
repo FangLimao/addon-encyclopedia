@@ -1,5 +1,8 @@
 # 物品组件 - minecraft:bundle_interaction
-`minecraft:bundle_interaction` 为物品启用收纳袋的交互方案和物品提示框。
+!!! info "版权说明"
+    本文译自[微软开发文档](https://learn.microsoft.com/en-us/minecraft/creator/)，按照 CC BY 4.0 协议进行许可
+
+`minecraft:bundle_interaction`组件为物品启用收纳袋的交互方案和物品提示框。
 
 
 !!! note "注意"

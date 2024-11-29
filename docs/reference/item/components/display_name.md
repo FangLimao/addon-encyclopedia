@@ -1,4 +1,7 @@
 # 物品组件 - minecraft:display_name
+!!! info "版权说明"
+    本文译自[微软开发文档](https://learn.microsoft.com/en-us/minecraft/creator/)，按照 CC BY 4.0 协议进行许可
+    
 `minecraft:display_name`组件设置物品显示的名称，该组件可以引用本地化文件中的翻译键。
 
 ## 参数

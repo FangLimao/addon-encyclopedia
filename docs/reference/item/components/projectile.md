@@ -1,4 +1,7 @@
 # 物品组件 - minecraft:projectile
+!!! info "版权说明"
+    本文译自[微软开发文档](https://learn.microsoft.com/en-us/minecraft/creator/)，按照 CC BY 4.0 协议进行许可
+    
 `minecraft:projectile`使物品可以像箭一样发射出去。带有这个组件的物品可以从发射器中射出，也可以作为带有`minecraft:shooter`组件的物品的弹药。
 
 如果带有该组件的物品同时包含`minecraft:throwable`组件，那么游戏将为物品自动生成丢出的实体。
