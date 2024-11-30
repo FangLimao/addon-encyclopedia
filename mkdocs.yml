@@ -44,6 +44,7 @@ nav:
   - 参考文档: 
     - 格式化代码: reference/format-code.md   
     - 数据驱动:
+      - 清单文件: reference/data-driven/manifest.md
       - 内容文件: reference/data-driven/contents.md
     - 方块组件: 
       - breathability: reference/block/components/breathability.md
