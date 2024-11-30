@@ -1,6 +1,6 @@
 # 开源脚本库
-!!! info
-    本文翻译自[微软文档](https://learn.microsoft.com/en-us/minecraft/creator/documents/scriptinglibraries?view=minecraft-bedrock-stable)，按照 [CC BY 4.0 协议](https://github.com/MicrosoftDocs/minecraft-creator/blob/main/LICENSE) 授权，并略有改动。
+!!! info "版权说明"
+    本文译自[微软开发文档](https://learn.microsoft.com/en-us/minecraft/creator/)，按照 CC BY 4.0 协议进行许可
 
 Mojang提供了许多脚本库，其中有些库可以在你的脚本中使用，而其他库则是辅助工具和构建脚本。
 

@@ -1,4 +1,7 @@
 # 物品组件 - minecraft:entity_placer
+!!! info "版权说明"
+    本文译自[微软开发文档](https://learn.microsoft.com/en-us/minecraft/creator/)，按照 CC BY 4.0 协议进行许可
+
 `minecraft:entity_placer`组件允许使用带有此组件的物品时会放置对应实体。
 
 在 1.19.80 及以上版本中，添加了这个组件的物品可以设置刷怪笼的生物类型。

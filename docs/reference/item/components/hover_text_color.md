@@ -1,5 +1,7 @@
-
 # 物品组件 - minecraft:hover_text_color
+!!! info "版权说明"
+    本文译自[微软开发文档](https://learn.microsoft.com/en-us/minecraft/creator/)，按照 CC BY 4.0 协议进行许可
+    
 `minecraft:hover_text_color`组件决定鼠标悬停在物品时名称的颜色。
 
 ## 参数

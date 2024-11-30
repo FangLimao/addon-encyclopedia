@@ -1,7 +1,10 @@
 # 物品组件 - minecraft:interact_button
-`minecraft:interact_button`组件需要填入一个布尔值或字符串，用于确定持有物品时是否显示交互按钮，以及按钮上显示什么文本。
+!!! info "版权说明"
+    本文译自[微软开发文档](https://learn.microsoft.com/en-us/minecraft/creator/)，按照 CC BY 4.0 协议进行许可
 
-当不指定按钮文本时，按钮将显示默认的“使用物品”。
+`minecraft:interact_button`组件决定持有物品时是否显示交互按钮，以及按钮上显示的文本。
+
+当不指定按钮文本时，按钮将显示默认的「使用物品」。
 
 ## 参数
 | 名称 | 默认值 | 类型 | 说明  |

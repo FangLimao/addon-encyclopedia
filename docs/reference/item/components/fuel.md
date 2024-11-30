@@ -1,4 +1,7 @@
 # 物品组件 - minecraft:fuel
+!!! info "版权说明"
+    本文译自[微软开发文档](https://learn.microsoft.com/en-us/minecraft/creator/)，按照 CC BY 4.0 协议进行许可
+    
 `minecraft:fuel`组件将物品设置为可以为熔炉供能的燃料。
 
 ## 参数

@@ -1,5 +1,8 @@
 # 物品组件 - minecraft:food
-`minecraft:food`组件允许玩家食用带有这个组件的物品。
+!!! info "版权说明"
+    本文译自[微软开发文档](https://learn.microsoft.com/en-us/minecraft/creator/)，按照 CC BY 4.0 协议进行许可
+
+`minecraft:food`组件将物品设置为食物。
 
 !!! note "注意"
 

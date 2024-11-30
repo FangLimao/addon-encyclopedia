@@ -1,6 +1,6 @@
 # 编辑器概述
-!!! info
-    本文翻译自[微软文档](https://learn.microsoft.com/en-us/minecraft/creator/documents/bedrockeditor/editoroverview?view=minecraft-bedrock-stable)，按照 [CC BY 4.0 协议](https://github.com/MicrosoftDocs/minecraft-creator/blob/main/LICENSE) 授权，并略有改动。
+!!! info "版权说明"
+    本文译自[微软开发文档](https://learn.microsoft.com/en-us/minecraft/creator/)，按照 CC BY 4.0 协议进行许可
 
 **Minecraft编辑器**（下称编辑器），可用于创建项目与编辑世界，本文档旨在介绍编辑器的界面、工具和快捷键，更多关于编辑器的信息可以在[GitHub](https://github.com/Mojang/minecraft-editor)获取。
 
