@@ -66,6 +66,41 @@
          <changefreq>daily</changefreq>
     </url>
     <url>
+         <loc>https://fanglimao.github.io/addon-encyclopedia/recipe/types/furnace/</loc>
+         <lastmod>2024-11-30</lastmod>
+         <changefreq>daily</changefreq>
+    </url>
+    <url>
+         <loc>https://fanglimao.github.io/addon-encyclopedia/recipe/types/potion-brewing-mix/</loc>
+         <lastmod>2024-11-30</lastmod>
+         <changefreq>daily</changefreq>
+    </url>
+    <url>
+         <loc>https://fanglimao.github.io/addon-encyclopedia/recipe/types/potion-brewing/</loc>
+         <lastmod>2024-11-30</lastmod>
+         <changefreq>daily</changefreq>
+    </url>
+    <url>
+         <loc>https://fanglimao.github.io/addon-encyclopedia/recipe/types/shaped/</loc>
+         <lastmod>2024-11-30</lastmod>
+         <changefreq>daily</changefreq>
+    </url>
+    <url>
+         <loc>https://fanglimao.github.io/addon-encyclopedia/recipe/types/shapeless/</loc>
+         <lastmod>2024-11-30</lastmod>
+         <changefreq>daily</changefreq>
+    </url>
+    <url>
+         <loc>https://fanglimao.github.io/addon-encyclopedia/recipe/types/smithing-transform/</loc>
+         <lastmod>2024-11-30</lastmod>
+         <changefreq>daily</changefreq>
+    </url>
+    <url>
+         <loc>https://fanglimao.github.io/addon-encyclopedia/recipe/types/smithing-trim/</loc>
+         <lastmod>2024-11-30</lastmod>
+         <changefreq>daily</changefreq>
+    </url>
+    <url>
          <loc>https://fanglimao.github.io/addon-encyclopedia/reference/format-code/</loc>
          <lastmod>2024-11-30</lastmod>
          <changefreq>daily</changefreq>
