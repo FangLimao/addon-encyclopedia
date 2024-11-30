@@ -9,10 +9,10 @@
 |[熔炉配方](types/furnace.md) | 用于熔炉的配方，输入物品将经过熔炼后转换为输出物品 |
 |[有序配方](types/shaped.md) | 有固定的合成形状，材料需要按照这个特定的形状摆放才可以合成的配方  |
 |[无序配方](types/shapeless.md) |没有固定的合成形状，合成时只需要把原料放进合成方块里即可的配方|
-|[药水酿造配方](types/potionBrewing.md) | 依赖酿造台的药水酿造配方 |
-|[药水酿造混合配方](types/potionBrewingMix.md) | 依赖酿造台的药水酿造配方，理论上输出物品的数据值将与输入物品无关 |
-|[锻造转换配方](types/smithingTransform.md) | 用于锻造台的锻造转换配方 |
-|[锻造纹饰配方](types/smithingTrim.md) | 用于锻造台的锻造纹饰配方 |
+|[药水酿造配方](types/potion-brewing.md) | 依赖酿造台的药水酿造配方 |
+|[药水酿造混合配方](types/potion-brewing-mix.md) | 依赖酿造台的药水酿造配方，理论上输出物品的数据值将与输入物品无关 |
+|[锻造转换配方](types/smithing-transform.md) | 用于锻造台的锻造转换配方 |
+|[锻造纹饰配方](types/smithing-trim.md) | 用于锻造台的锻造纹饰配方 |
 
 ## 引用
 [^1]: 引用自[Minecraft Wiki](https://zh.minecraft.wiki/w/%E9%85%8D%E6%96%B9) 

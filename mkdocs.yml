@@ -24,6 +24,14 @@ nav:
     - 简介: recipe/index.md
     - 标签: recipe/tags.md
     - 配方解锁: recipe/unlock.md
+    - 类型: 
+      - 熔炉配方: recipe/types/furnace.md
+      - 有序配方: recipe/types/shaped.md
+      - 无序配方: recipe/types/shapeless.md
+      - 药水酿造配方: recipe/types/potion-brewing.md
+      - 药水酿造混合配方: recipe/types/potion-brewing-mix.md
+      - 锻造转换配方: recipe/types/smithing-transform.md
+      - 锻造纹饰配方: recipe/types/smithing-trim.md
   - 脚本:
     - 自定义组件: script/custom-components.md
   - 工具与资源: 
