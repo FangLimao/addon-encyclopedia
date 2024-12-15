@@ -2,6 +2,7 @@ import { defineConfig } from "vitepress";
 
 // https://vitepress.dev/reference/site-config
 export default defineConfig({
+  base: '/addon-encyclopedia/',
   lastUpdated: true,
   title: "Addon Encyclopedia",
   head: [["link", { rel: "icon", href: "/logo.png" }]],
@@ -73,11 +74,19 @@ export default defineConfig({
       "/": [
         {
           text: "Addon Encyclopedia",
+          collapsed: false,
           items: [
             { text: "主页", link: "/" },
             { text: "指南", link: "/guide" },
             { text: "工具", link: "/tool" },
             { text: "参考", link: "/reference" },
+          ],
+        },
+        {
+          text: "作出贡献",
+          collapsed: false,
+          items: [
+            { text: "编辑指南", link: "/contribute" },
           ],
         },
       ],
