@@ -69,8 +69,8 @@ export default {
             link: "/reference/block/components/friction",
           },
           {
-            text: "",
-            link: "/reference/block/components/",
+            text: "geometry",
+            link: "/reference/block/components/geometry",
           },
           {
             text: "",

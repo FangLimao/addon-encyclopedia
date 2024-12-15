@@ -1,50 +1,63 @@
----
-author: iconicNurdle
-ms.author: mikeam
-title: 方块组件 - minecraft:geometry
-description: "A reference document detailing the 'geometry' block component"
-ms.service: minecraft-bedrock-edition
----
-
 # 方块组件 - minecraft:geometry
 
 > [!INFO]
 > 本文译自[微软开发文档](https://learn.microsoft.com/en-us/minecraft/creator/)，按照 CC BY 4.0 协议进行许可
 
-`minecraft:geometry` is an `Identifier String` component that specifies the geometry description identifier to use to render this block. This identifier must match an existing geometry identifier in any of the currently loaded resource packs.
+`minecraft:geometry`设置方块的模型标识符，此标识符必须与当前加载的资源包中的已有模型的标识符匹配。
 
-| minecraft:collision_box | 组件信息 |
+| minecraft:geometry | 组件信息 |
 | ----------------------- | -------- |
-| 数据类型                |          |
+| 数据类型                |    字符串/JSON 对象      |
 | 默认值                  |          |
 
-## UV Rotation (preview feature)
-In version 1.21.0 of Minecraft, your geometry model can use a new `uv_rotation` attribute, in 90 degeree increments, to adjust the rotation of how UV textures apply to cube faces. See [the 1.21.0 geometry reference](../../../SchemasReference/Schemas/minecraftSchema_geometry_1.21.0.md) for more details.
+## 属性
 
-## Default Value of the Component
+当组件数据类型为 JSON 对象时，该组件具有以下属性：
 
-This component is specified as an `Identifier String`, so it does not have a default value. You must provide a valid geometry identifier in order to use this component.
+| 名称 | 默认值 | 类型 | 说明  |
+|:----------|:----------|:----------|:----------|
+|`identifier`| | 字符串 | 方块的模型标识符 |
+|`bone_visibility`| | JSON 对象 | 模型骨骼可见性 |
 
-## bone_visibility
-
-`minecraft:bone_visibility` is an optional array of Booleans that define the visibility of individual bones in the geometry file. In order to set up 'bone_visibility' the geometry file name must be entered as an identifier. After the identifier has been specified, bone_visibility can be defined based on the names of the bones in the specified geometry file on a true/false basis.
-
-Note that all bones default to 'true,' so bones should only be defined if they are being set to 'false.' Including bones set to 'true' will work the same as the default.
-
-## Basic Geometry Example
-
-```json
-"minecraft:geometry": "geometry.bubble_fish"
-```
-
-## Geometry and Bone Visibility Example
+### bone_visibility <Badge type="tip" text="^1.20.10" />
+`bone_visibility`用于设置模型中单个骨骼的可见性，对象中每个键值对格式为`骨骼名称: 可见性`：
 
 ```json
 "minecraft:geometry": { 
-        "identifier": "geometry:bubble_fish", 
-        "bone_visibility": { 
-          "bone1": true, 
-          "bone2": false 
-        } 
-      }
+  "identifier": "geometry:custom_geo", 
+  "bone_visibility": { 
+    "bone1": true, // [!code focus]
+    "bone2": false // [!code focus]
+   } 
+}
+```
+在上面的例子里，`bone1`被设置为可见，而`bone2`被设置为不可见。
+
+而除了布尔值以外，可见性也可以填Molang表达式，实现复杂的判断：
+
+```json
+"minecraft:geometry": { 
+  "identifier": "geometry:custom_geo", 
+  "bone_visibility": { 
+    "bone114": "q.block_state('example_state') == 2", // [!code focus]
+   } 
+}
+```
+在上面的例子里，`bone114`只有在`example_state`为2时才会可见。
+
+
+## 范例
+```json
+"minecraft:geometry": "geometry.custom_geo"
+```
+
+### 设置骨骼可见性
+```json
+"minecraft:geometry": { 
+  "identifier": "geometry:custom_geo", 
+  "bone_visibility": { 
+    "bone1": true,
+    "bone2": false
+   } 
+}
 ```

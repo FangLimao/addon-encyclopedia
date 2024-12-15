@@ -14,17 +14,19 @@
 
 ## 范例
 ### 原始字符串
-```json
+
+```json 
 "minecraft:display_name": "自定义方块名称"
 ```
 
 ### 本地化字符串
-```json
+
+```json [行为包/blocks/custom_block.json]
 "minecraft:display_name": "block.custom.name"
 ```
 
 此时语言文件应该有：
 
-```
+```sh [资源包/texts/zh_CN.lang]
 block.custom.name=自定义方块名称
 ```
