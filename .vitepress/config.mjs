@@ -3,6 +3,9 @@ import { defineConfig } from "vitepress";
 // https://vitepress.dev/reference/site-config
 export default defineConfig({
   base: '/addon-encyclopedia/',
+  markdown: {
+    lineNumbers: true
+  },
   lastUpdated: true,
   title: "Addon Encyclopedia",
   head: [["link", { rel: "icon", href: "/logo.png" }]],

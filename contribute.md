@@ -52,3 +52,167 @@
 
 > [!CAUTION]
 > 行为可能带来的负面影响。
+
+## 代码块相关
+### 行高亮
+
+**输入**
+
+~~~text
+```js{4}
+export default {
+  data () {
+    return {
+      msg: 'Highlighted!'
+    }
+  }
+}
+```
+~~~
+
+**输出**
+
+```js{4}
+export default {
+  data () {
+    return {
+      msg: 'Highlighted!'
+    }
+  }
+}
+```
+
+除了单行之外，还可以指定多个单行、多行，或两者均指定：
+
+- 多行：例如 `{5-8}`、`{3-10}`、`{10-17}`
+- 多个单行：例如 `{4,7,9}`
+- 多行与单行：例如 `{4,7-13,16,23-27,40}`
+
+**输入**
+
+~~~text
+```js{1,4,6-8}
+export default { // Highlighted
+  data () {
+    return {
+      msg: `Highlighted!
+      This line isn't highlighted,
+      but this and the next 2 are.`,
+      motd: 'VitePress is awesome',
+      lorem: 'ipsum'
+    }
+  }
+}
+```
+~~~
+
+**输出**
+
+
+```js{1,4,6-8}
+export default { // Highlighted
+  data () {
+    return {
+      msg: `Highlighted!
+      This line isn't highlighted,
+      but this and the next 2 are.`,
+      motd: 'VitePress is awesome',
+      lorem: 'ipsum'
+    }
+  }
+}
+```
+也可以使用 `// [!code highlight]` 注释实现行高亮。
+
+
+### 代码块中聚焦
+在某一行上添加 `// [!code focus]` 注释将聚焦它并模糊代码的其他部分。
+
+此外，可以使用 `// [!code focus:<lines>]` 定义要聚焦的行数。
+
+输入
+
+~~~text
+```js
+export default {
+  data () {
+    return {
+      msg: 'Focused!' // [!code focus]
+    }
+  }
+}
+```
+~~~
+输出
+
+```js
+export default {
+  data () {
+    return {
+      msg: 'Focused!' // [!code focus]
+    }
+  }
+}
+```
+
+### 颜色差异
+在某一行添加 `// [!code --]` 或 `// [!code ++]` 注释将会为该行创建 diff，同时保留代码块的颜色。
+
+输入
+~~~text
+
+```js
+export default {
+  data () {
+    return {
+      msg: 'Removed' // [!code --]
+      msg: 'Added' // [!code ++]
+    }
+  }
+}
+```
+~~~
+
+输出
+
+```js
+export default {
+  data () {
+    return {
+      msg: 'Removed' // [!code --]
+      msg: 'Added' // [!code ++]
+    }
+  }
+}
+```
+
+### 高亮“错误”和“警告”
+在某一行添加 `// [!code warning]` 或 `// [!code error]` 注释将会为该行相应的着色。
+
+输入
+
+~~~text
+```js
+export default {
+  data () {
+    return {
+      msg: 'Error', // [!code error]
+      msg: 'Warning' // [!code warning]
+    }
+  }
+}
+```
+~~~
+
+输出
+
+```js
+export default {
+  data () {
+    return {
+      msg: 'Error', // [!code error]
+      msg: 'Warning' // [!code warning]
+    }
+  }
+}
+```
