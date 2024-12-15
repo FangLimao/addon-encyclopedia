@@ -1,7 +1,7 @@
 # 方块组件 - minecraft:collision_box
 
 > [!INFO]
-> 本文译自[微软开发文档](https://learn.microsoft.com/en-us/minecraft/creator/)，按照 CC BY 4.0 协议进行许可
+> 本文译自[Microsoft Learn](https://learn.microsoft.com/en-us/minecraft/creator/)，按照 CC BY 4.0 协议进行许可
 
 `minecraft:collision_box`组件定义了方块的碰撞箱大小。
 

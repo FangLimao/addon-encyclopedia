@@ -1,6 +1,6 @@
 # 物品组件 - minecraft:max_stack_size
 > [!INFO]
-> 本文译自[微软开发文档](https://learn.microsoft.com/en-us/minecraft/creator/)，按照 CC BY 4.0 协议进行许可
+> 本文译自[Microsoft Learn](https://learn.microsoft.com/en-us/minecraft/creator/)，按照 CC BY 4.0 协议进行许可
 
     
 `minecraft:max_stack_size`组件决定物品的最大堆叠。

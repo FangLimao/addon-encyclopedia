@@ -9,7 +9,7 @@ ms.service: minecraft-bedrock-edition
 # 方块组件 - minecraft:light_emission
 
 > [!INFO]
-> 本文译自[微软开发文档](https://learn.microsoft.com/en-us/minecraft/creator/)，按照 CC BY 4.0 协议进行许可
+> 本文译自[Microsoft Learn](https://learn.microsoft.com/en-us/minecraft/creator/)，按照 CC BY 4.0 协议进行许可
 
 `minecraft:light_emission` is an `Integer` component that sets the amount of light this block will emit, in a range (0-15). A higher value means more light will be emitted.
 

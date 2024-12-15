@@ -33,6 +33,42 @@ export default {
         ],
       },
       {
+        text: "客户端群系",
+        collapsed: false,
+        items: [
+          {
+            text: "概述",
+            link: "/reference/client-biome",
+          },
+          {
+            text: "组件",
+            collapsed: true,
+            items: [
+              {
+                text: "ambient_sounds",
+                link: "/reference/client-biome/components/ambient_sounds",
+              },
+              {
+                text: "biome_music",
+                link: "/reference/client-biome/components/biome_music",
+              },
+              {
+                text: "fog_appearance",
+                link: "/reference/client-biome/components/fog_appearance",
+              },
+              {
+                text: "sky_color",
+                link: "/reference/client-biome/components/sky_color",
+              },
+              {
+                text: "water_appearance",
+                link: "/reference/client-biome/components/water_appearance",
+              },
+            ]
+          }
+        ],
+      },
+      {
         text: "方块组件",
         collapsed: true,
         items: [

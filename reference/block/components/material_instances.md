@@ -9,7 +9,7 @@ ms.service: minecraft-bedrock-edition
 # 方块组件 - minecraft:material_instances
 
 > [!INFO]
-> 本文译自[微软开发文档](https://learn.microsoft.com/en-us/minecraft/creator/)，按照 CC BY 4.0 协议进行许可
+> 本文译自[Microsoft Learn](https://learn.microsoft.com/en-us/minecraft/creator/)，按照 CC BY 4.0 协议进行许可
 
 `minecraft:material_instances` is a `JSON Object` component that specifies the material instances for a block. The object contains a map that maps face or material_instance names in a geometry file to an actual material instance. You can assign a material instance object to any of these faces: `up`, `down`, `north`, `south`, `east`, `west`, or `*`. You can also give an instance the name of your choosing such as `my_instance`, and then assign it to a face by doing `"north": "my_instance"`.
 

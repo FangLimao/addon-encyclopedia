@@ -1,6 +1,6 @@
 # 物品组件 - minecraft:entity_placer
 > [!INFO]
-> 本文译自[微软开发文档](https://learn.microsoft.com/en-us/minecraft/creator/)，按照 CC BY 4.0 协议进行许可
+> 本文译自[Microsoft Learn](https://learn.microsoft.com/en-us/minecraft/creator/)，按照 CC BY 4.0 协议进行许可
 
 
 `minecraft:entity_placer`组件允许使用带有此组件的物品时会放置对应实体。

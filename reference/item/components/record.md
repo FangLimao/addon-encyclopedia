@@ -1,6 +1,6 @@
 # 物品组件 -  minecraft:record
 > [!INFO]
-> 本文译自[微软开发文档](https://learn.microsoft.com/en-us/minecraft/creator/)，按照 CC BY 4.0 协议进行许可
+> 本文译自[Microsoft Learn](https://learn.microsoft.com/en-us/minecraft/creator/)，按照 CC BY 4.0 协议进行许可
 
 
 `minecraft:record`组件将物品设置为音乐唱片，但仅能使用原版的音频，**无法使用自定义音频**。

@@ -1,6 +1,6 @@
 # 物品组件 - minecraft:durability
 > [!INFO]
-> 本文译自[微软开发文档](https://learn.microsoft.com/en-us/minecraft/creator/)，按照 CC BY 4.0 协议进行许可
+> 本文译自[Microsoft Learn](https://learn.microsoft.com/en-us/minecraft/creator/)，按照 CC BY 4.0 协议进行许可
 
     
 `minecraft:durability`组件设置物品在损坏前能够承受的最大损坏值。

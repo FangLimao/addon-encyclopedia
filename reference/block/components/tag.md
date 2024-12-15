@@ -9,7 +9,7 @@ ms.service: minecraft-bedrock-edition
 # 方块组件 - tag:
 
 > [!INFO]
-> 本文译自[微软开发文档](https://learn.microsoft.com/en-us/minecraft/creator/)，按照 CC BY 4.0 协议进行许可
+> 本文译自[Microsoft Learn](https://learn.microsoft.com/en-us/minecraft/creator/)，按照 CC BY 4.0 协议进行许可
 
 `tag:` is an empty JSON Object that defines a tag to be added to a block. 
 

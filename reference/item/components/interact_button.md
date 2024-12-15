@@ -1,6 +1,6 @@
 # 物品组件 - minecraft:interact_button
 > [!INFO]
-> 本文译自[微软开发文档](https://learn.microsoft.com/en-us/minecraft/creator/)，按照 CC BY 4.0 协议进行许可
+> 本文译自[Microsoft Learn](https://learn.microsoft.com/en-us/minecraft/creator/)，按照 CC BY 4.0 协议进行许可
 
 
 `minecraft:interact_button`组件决定持有物品时是否显示交互按钮，以及按钮上显示的文本。
