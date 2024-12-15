@@ -5,7 +5,7 @@
 
 `minecraft:display_name`组件指定方块的显示名称。
 
-| minecraft:collision_box | 组件信息 |
+| minecraft:display_name | 组件信息 |
 | ----------------------- | -------- |
 | 数据类型                |     字符串     |
 | 默认值                  |          |

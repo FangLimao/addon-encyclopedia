@@ -1,10 +1,22 @@
 import { defineConfig } from "vitepress";
+import {
+  groupIconMdPlugin,
+  groupIconVitePlugin,
+} from "vitepress-plugin-group-icons";
 
 // https://vitepress.dev/reference/site-config
 export default defineConfig({
-  base: '/addon-encyclopedia/',
+  base: "/addon-encyclopedia/",
   markdown: {
-    lineNumbers: true
+    config(md) {
+      md.use(groupIconMdPlugin); //代码组图标
+    },
+    lineNumbers: true,
+  },
+  vite: {
+    plugins: [
+      groupIconVitePlugin(), //代码组图标
+    ],
   },
   lastUpdated: true,
   title: "Addon Encyclopedia",
@@ -16,6 +28,7 @@ export default defineConfig({
       lang: "zh-CN",
     },
   },
+  lang: "zh-CN",
   description: "A wiki of Minecraft Add-on",
   themeConfig: {
     logo: "/logo.png",
@@ -89,9 +102,7 @@ export default defineConfig({
         {
           text: "作出贡献",
           collapsed: false,
-          items: [
-            { text: "编辑指南", link: "/contribute" },
-          ],
+          items: [{ text: "编辑指南", link: "/contribute" }],
         },
       ],
       "/reference/": [
@@ -116,85 +127,85 @@ export default defineConfig({
           items: [
             {
               text: "breathability",
-              link: "/reference/block/components/breathability"
+              link: "/reference/block/components/breathability",
             },
             {
               text: "collision_box",
-              link: "/reference/block/components/collision_box"
+              link: "/reference/block/components/collision_box",
             },
             {
               text: "crafting_table",
-              link: "/reference/block/components/crafting_table"
+              link: "/reference/block/components/crafting_table",
             },
             {
               text: "destructible_by_explosion",
-              link: "/reference/block/components/destructible_by_explosion"
+              link: "/reference/block/components/destructible_by_explosion",
             },
             {
               text: "destructible_by_mining",
-              link: "/reference/block/components/destructible_by_mining"
+              link: "/reference/block/components/destructible_by_mining",
             },
             {
               text: "display_name",
-              link: "/reference/block/components/display_name"
+              link: "/reference/block/components/display_name",
+            },
+            {
+              text: "flammable",
+              link: "/reference/block/components/flammable",
             },
             {
               text: "",
-              link: "/reference/block/components/"
+              link: "/reference/block/components/",
             },
             {
               text: "",
-              link: "/reference/block/components/"
+              link: "/reference/block/components/",
             },
             {
               text: "",
-              link: "/reference/block/components/"
+              link: "/reference/block/components/",
             },
             {
               text: "",
-              link: "/reference/block/components/"
+              link: "/reference/block/components/",
             },
             {
               text: "",
-              link: "/reference/block/components/"
+              link: "/reference/block/components/",
             },
             {
               text: "",
-              link: "/reference/block/components/"
+              link: "/reference/block/components/",
             },
             {
               text: "",
-              link: "/reference/block/components/"
+              link: "/reference/block/components/",
             },
             {
               text: "",
-              link: "/reference/block/components/"
+              link: "/reference/block/components/",
             },
             {
               text: "",
-              link: "/reference/block/components/"
+              link: "/reference/block/components/",
             },
             {
               text: "",
-              link: "/reference/block/components/"
+              link: "/reference/block/components/",
             },
             {
               text: "",
-              link: "/reference/block/components/"
+              link: "/reference/block/components/",
             },
             {
               text: "",
-              link: "/reference/block/components/"
+              link: "/reference/block/components/",
             },
             {
               text: "",
-              link: "/reference/block/components/"
+              link: "/reference/block/components/",
             },
-            {
-              text: "",
-              link: "/reference/block/components/"
-            },
-          ]
+          ],
         },
         {
           text: "物品组件",

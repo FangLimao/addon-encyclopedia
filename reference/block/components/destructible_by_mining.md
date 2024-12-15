@@ -5,7 +5,7 @@
 
 `minecraft:destructible_by_mining`设置方块的挖掘时间。
 
-| minecraft:collision_box | 组件信息         |
+| minecraft:destructible_by_mining | 组件信息         |
 | ----------------------- | ---------------- |
 | 数据类型                | 布尔值/JSON 对象 |
 | 默认值                  | `true`           |
