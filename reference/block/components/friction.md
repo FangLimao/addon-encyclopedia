@@ -7,9 +7,17 @@ ms.service: minecraft-bedrock-edition
 
 # 方块组件 - minecraft:friction
 
+> [!INFO]
+> 本文译自[微软开发文档](https://learn.microsoft.com/en-us/minecraft/creator/)，按照 CC BY 4.0 协议进行许可
+
 `minecraft:friction` is a `Decimal` component that describes a block's friction in a range of `0.0` to `0.9`, where the higher the value the greater the friction. Friction affects an entity's movement speed when it travels on the block.
 
 For context, wood and dirt are set to a friction of `0.4` while ice is set to `0.02`.
+
+| minecraft:collision_box | 组件信息 |
+| ----------------------- | -------- |
+| 数据类型                |          |
+| 默认值                  |          |
 
 ## Default Value
 

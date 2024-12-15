@@ -8,11 +8,19 @@ ms.service: minecraft-bedrock-edition
 
 # 方块组件 - minecraft:redstone_conductivity
 
+> [!INFO]
+> 本文译自[微软开发文档](https://learn.microsoft.com/en-us/minecraft/creator/)，按照 CC BY 4.0 协议进行许可
+
 `minecraft:redstone_conductivity` specifies whether a block has redstone properties. If the component is not provided, the default values are used. 
 
 Requires 1.21.30 format version and above. Experimental toggles required: Upcoming Creator Features (in format versions before **1.21.30**).
 
-## Parameters
+| minecraft:collision_box | 组件信息 |
+| ----------------------- | -------- |
+| 数据类型                |          |
+| 默认值                  |          |
+
+## 参数
 
 | Name| Type |Default Value| Description
 :-----------:|:-----------:|:-----------:|:-----------:

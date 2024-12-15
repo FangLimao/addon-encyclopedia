@@ -98,6 +98,92 @@ export default defineConfig({
           ],
         },
         {
+          text: "方块组件",
+          collapsed: true,
+          items: [
+            {
+              text: "breathability",
+              link: "/reference/block/components/breathability"
+            },
+            {
+              text: "collision_box",
+              link: "/reference/block/components/collision_box"
+            },
+            {
+              text: "crafting_table",
+              link: "/reference/block/components/crafting_table"
+            },
+            {
+              text: "destructible_by_explosion",
+              link: "/reference/block/components/destructible_by_explosion"
+            },
+            {
+              text: "destructible_by_mining",
+              link: "/reference/block/components/destructible_by_mining"
+            },
+            {
+              text: "display_name",
+              link: "/reference/block/components/display_name"
+            },
+            {
+              text: "",
+              link: "/reference/block/components/"
+            },
+            {
+              text: "",
+              link: "/reference/block/components/"
+            },
+            {
+              text: "",
+              link: "/reference/block/components/"
+            },
+            {
+              text: "",
+              link: "/reference/block/components/"
+            },
+            {
+              text: "",
+              link: "/reference/block/components/"
+            },
+            {
+              text: "",
+              link: "/reference/block/components/"
+            },
+            {
+              text: "",
+              link: "/reference/block/components/"
+            },
+            {
+              text: "",
+              link: "/reference/block/components/"
+            },
+            {
+              text: "",
+              link: "/reference/block/components/"
+            },
+            {
+              text: "",
+              link: "/reference/block/components/"
+            },
+            {
+              text: "",
+              link: "/reference/block/components/"
+            },
+            {
+              text: "",
+              link: "/reference/block/components/"
+            },
+            {
+              text: "",
+              link: "/reference/block/components/"
+            },
+            {
+              text: "",
+              link: "/reference/block/components/"
+            },
+          ]
+        },
+        {
           text: "物品组件",
           collapsed: true,
           items: [

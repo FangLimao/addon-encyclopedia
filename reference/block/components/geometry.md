@@ -8,7 +8,15 @@ ms.service: minecraft-bedrock-edition
 
 # 方块组件 - minecraft:geometry
 
+> [!INFO]
+> 本文译自[微软开发文档](https://learn.microsoft.com/en-us/minecraft/creator/)，按照 CC BY 4.0 协议进行许可
+
 `minecraft:geometry` is an `Identifier String` component that specifies the geometry description identifier to use to render this block. This identifier must match an existing geometry identifier in any of the currently loaded resource packs.
+
+| minecraft:collision_box | 组件信息 |
+| ----------------------- | -------- |
+| 数据类型                |          |
+| 默认值                  |          |
 
 ## UV Rotation (preview feature)
 In version 1.21.0 of Minecraft, your geometry model can use a new `uv_rotation` attribute, in 90 degeree increments, to adjust the rotation of how UV textures apply to cube faces. See [the 1.21.0 geometry reference](../../../SchemasReference/Schemas/minecraftSchema_geometry_1.21.0.md) for more details.

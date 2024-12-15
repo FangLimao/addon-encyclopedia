@@ -1,44 +1,55 @@
----
-author: iconicNurdle
-ms.author: mikeam
-title: 方块组件 - minecraft:destructible_by_mining
-description: "A reference document detailing the 'destructible_by_mining' block component"
-ms.service: minecraft-bedrock-edition
----
-
 # 方块组件 - minecraft:destructible_by_mining
 
-`minecraft:destructible_by_mining` is a `Boolean` or `JSON Object` component that describes the destructible by mining properties for this block. If set to `true`, the block will take the default number of seconds to destroy. If set to `false`, this block is indestructible by mining. If the component is omitted, the block will take the default number of seconds to destroy.
+> [!INFO]
+> 本文译自[微软开发文档](https://learn.microsoft.com/en-us/minecraft/creator/)，按照 CC BY 4.0 协议进行许可
 
-## Default Value of the Component
+`minecraft:destructible_by_mining`设置方块的挖掘时间。
 
-This component can be specified as a `Boolean`. If this component is omitted, the default value for this component is `true`, which will give your block the default values for its parameters (it will take ZERO seconds to destroy the block by mining it).
+| minecraft:collision_box | 组件信息         |
+| ----------------------- | ---------------- |
+| 数据类型                | 布尔值/JSON 对象 |
+| 默认值                  | `true`           |
 
-## Parameters
+如果设置为`true`，那么挖掘该方块将花费默认时间；如果设置为`false`，则该方块无法被挖掉。
 
-| Name| Type | Default Value| Description |
-|:-----------:|:-----------:|:-----------:|:-----------|
-| item_specific_speeds | Array | True | Optional array of objects to describe item-specific block destroy speeds. Each object contains an **`item`** ItemDescriptor and a **`destroy_speed`** float. **`destroy_speed`** is required and it is the speed applied while using the defined item. **`item`** is required and it is an ItemDescriptor filtering for the item used while mining. |
-| seconds_to_destroy| Decimal | 0.0 | Sets the number of seconds it takes to destroy the block with base equipment. Greater numbers result in greater mining times. |
+## 参数
 
-## 范例 (Boolean)
+当组件数据类型为 JSON 对象时，该组件具有以下属性：
+
+|         名称         | 类型 | 默认值 | 说明                               |
+| :------------------: | :--: | :----: | :--------------------------------- |
+| item_specific_speeds | 数组 |        | 设置特定物品挖掘该方块的速度       |
+|  seconds_to_destroy  | 小数 |  0.0   | 设置挖掘该方块花费的时间，单位为秒 |
+
+### item_specific_speeds <Badge type="tip" text="^1.21.50" />
+
+`item_specific_speeds`数组的每一个元素具有以下属性：
+
+|     名称      |   类型   | 默认值 | 说明                         |
+| :-----------: | :------: | :----: | :--------------------------- |
+|     item      | 物品描述 |        | 指定一个或多个特定的物品     |
+| destroy_speed |   小数   |  0.0   | 特定物品挖掘该方块花费的时间 |
+
+## 范例
+
+### 布尔值
 
 ```json
 "minecraft:destructible_by_mining": true
 ```
 
-## 范例 (JSON Object)
+### JSON 对象
 
 ```json
-"minecraft:destructible_by_mining": { 
-  "seconds_to_destroy": 10, 
-  "item_specific_speeds": [ 
-    { 
-      "item": { "tags": "q.any_tag('minecraft:is_pickaxe', 'my_pack:custom_tool') " }, 
-      "destroy_speed": 5.0 
-    } 
-  ] 
-} 
+"minecraft:destructible_by_mining": {
+  "seconds_to_destroy": 10,
+  "item_specific_speeds": [
+    {
+      "item": { "tags": "q.any_tag('minecraft:is_pickaxe', 'my_pack:custom_tool') " },
+      "destroy_speed": 5.0
+    }
+  ]
+}
 ```
 
 ```json

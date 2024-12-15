@@ -8,13 +8,21 @@ ms.service: minecraft-bedrock-edition
 
 # 方块组件 - minecraft:flammable
 
+> [!INFO]
+> 本文译自[微软开发文档](https://learn.microsoft.com/en-us/minecraft/creator/)，按照 CC BY 4.0 协议进行许可
+
 `minecraft:flammable` is a `Boolean` or `JSON Object` component that describes the flammable properties for this block. If set to `true`, default values are used. If set to `false`, or if this component is omitted, the block will not be able to catch on fire naturally from neighbors, but it can still be directly ignited.
+
+| minecraft:collision_box | 组件信息 |
+| ----------------------- | -------- |
+| 数据类型                |          |
+| 默认值                  |          |
 
 ## Default Value of the Component
 
 This component can be specified as a `Boolean`. If this component is omitted, the default value for this component is `false` (the block will not be able to catch on fire naturally from neighbors, but it can still be directly ignited).
 
-## Parameters
+## 参数
 
 `minecraft:flammable` can use the following parameters:
 

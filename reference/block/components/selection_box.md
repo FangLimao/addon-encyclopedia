@@ -8,14 +8,22 @@ ms.service: minecraft-bedrock-edition
 
 # 方块组件 - minecraft:selection_box
 
+> [!INFO]
+> 本文译自[微软开发文档](https://learn.microsoft.com/en-us/minecraft/creator/)，按照 CC BY 4.0 协议进行许可
+
 `minecraft:selection_box` is a `Boolean` or `JSON Object` component that defines the area of the block that is selected by the player's cursor. If set to true, default values are used. If set to false, this block is not selectable by the player's cursor. If this component is omitted, default values are used.
+
+| minecraft:collision_box | 组件信息 |
+| ----------------------- | -------- |
+| 数据类型                |          |
+| 默认值                  |          |
 
 ## Default Value of the Component
 
 This component can be specified as a Boolean. If this component is omitted, the default value for this component is true, which will give your block the default values for its parameters (a selection box the size/shape of a regular block).
 Parameters
 
-## Parameters
+## 参数
 
 | Name| Type |Default Value| Description
 :-----------:|:-----------:|:-----------:|:-----------:

@@ -8,18 +8,26 @@ ms.service: minecraft-bedrock-edition
 
 # 方块组件 - minecraft:item_visual
 
+> [!INFO]
+> 本文译自[微软开发文档](https://learn.microsoft.com/en-us/minecraft/creator/)，按照 CC BY 4.0 协议进行许可
+
 `minecraft:item_visual` is a `JSON Object` component that specifies the block's item representation. The object contains `geometry` and `material_instances` parameters which map to the existing `minecraft:geometry` and `minecraft:material_instances` block components respectively. 
 
 Both `minecraft:geometry` and `minecraft:material_instances` components are required when using the `minecraft:item_visual` component.
 
 Experimental toggles required: Upcoming Creator Features
 
-## Parameters
+| minecraft:collision_box | 组件信息 |
+| ----------------------- | -------- |
+| 数据类型                |          |
+| 默认值                  |          |
+
+## 参数
 
 | 名称 | 默认值 | 类型 | 说明  |
 |:----------|:----------|:----------|:----------|
-| geometry| *not set* | JSON Object | The `minecraft:geometry` component used to represent the item's geometry. See [geometry](minecraftBlock_geometry.md) for more information on component use. |
-| material_instances | *not set*  | JSON Object| The `minecraft:material_instances` component used to represent the item's materials. See [material_instances](minecraftBlock_material_instances.md) for more information on component use. |
+| geometry| *未设置* | JSON Object | The `minecraft:geometry` component used to represent the item's geometry. See [geometry](minecraftBlock_geometry.md) for more information on component use. |
+| material_instances | *未设置*  | JSON Object| The `minecraft:material_instances` component used to represent the item's materials. See [material_instances](minecraftBlock_material_instances.md) for more information on component use. |
 
 ## 范例
 

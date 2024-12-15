@@ -1,23 +1,30 @@
----
-author: iconicNurdle
-ms.author: mikeam
-title: 方块组件 - minecraft:display_name
-description: "A reference document detailing the 'display_name' block component"
-ms.service: minecraft-bedrock-edition
----
-
 # 方块组件 - minecraft:display_name
 
-`minecraft:display_name` is a `String` component that specifies the language file key that maps to what text will be displayed when you hover over the block in your inventory and hotbar. If the string given can not be resolved as a loc string, the raw string given will be displayed. If this component is omitted, the name of the block will be used as the display name.
+> [!INFO]
+> 本文译自[微软开发文档](https://learn.microsoft.com/en-us/minecraft/creator/)，按照 CC BY 4.0 协议进行许可
 
-## Default Value of the Component
+`minecraft:display_name`组件指定方块的显示名称。
 
-This component is specified as a `Localization String`. If this component is omitted, the default value for this component is the name of the block.
+| minecraft:collision_box | 组件信息 |
+| ----------------------- | -------- |
+| 数据类型                |     字符串     |
+| 默认值                  |          |
+
+如果给定的字符串不能被解析为本地化字符串，则将显示原始字符串。
 
 ## 范例
-
+### 原始字符串
 ```json
-"minecraft:display_name": "customBlock"
+"minecraft:display_name": "自定义方块名称"
 ```
 
-[Click here for a list of existing vanilla block names.](../../../AddonsReference/Examples/AddonBlocks.md#list-of-blocks)
+### 本地化字符串
+```json
+"minecraft:display_name": "block.custom.name"
+```
+
+此时语言文件应该有：
+
+```
+block.custom.name=自定义方块名称
+```

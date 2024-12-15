@@ -1,32 +1,34 @@
----
-author: iconicNurdle
-ms.author: mikeam
-title: 方块组件 - minecraft:destructible_by_explosion
-description: "A reference document detailing the 'destructible_by_explosion' block component"
-ms.service: minecraft-bedrock-edition
----
-
 # 方块组件 - minecraft:destructible_by_explosion
 
-`minecraft:destructible_by_explosion` is a `Boolean` or `JSON Object` component that describes the destructible by explosion properties for this block. If set to `true`, the block will have the default explosion resistance. If set to `false`, this block is indestructible by explosion. If the component is omitted, the block will have the default explosion resistance.
+> [!INFO]
+> 本文译自[微软开发文档](https://learn.microsoft.com/en-us/minecraft/creator/)，按照 CC BY 4.0 协议进行许可
 
-## Default Value of the Component
+`minecraft:destructible_by_explosion`组件设置方块的爆炸抗性。
 
-This component can be specified as a `Boolean`. If this component is omitted, the default value for this component is `true`, which will give your block the default values for its parameters (ZERO explosion resistance so your block will be destroyed right away when near an explosion).
+| minecraft:destructible_by_explosion | 组件信息         |
+| ----------------------------------- | ---------------- |
+| 数据类型                            | 布尔值/JSON 对象 |
+| 默认值                              | `true`           |
 
-## Parameters
+如果设置为`true`，则该方块将具有默认的爆炸抗性；如果设置为`false`，则该方块不会被爆炸摧毁。
 
-|Name |Default Value |Type |Description|
-|:----|:----|:----|:----|
-|explosion_resistance|0.0| Decimal|Describes how resistant the block is to explosion. Greater values mean the block is less likely to break when near an explosion (or has higher resistance to explosions). The scale will be different for different explosion power levels. A negative value or 0 means it will easily explode; larger numbers increase level of resistance.|
+## 参数
 
-## 范例 (Boolean)
+当组件数据类型为 JSON 对象时，该组件具有以下属性：
+
+| 名称                 | 默认值 | 类型 | 说明                                           |
+| :------------------- | :----- | :--- | :--------------------------------------------- |
+| explosion_resistance | 0.0    | 小数 | 方块的爆炸抗性，抗性越大越不容易在爆炸中被摧毁 |
+
+## 范例
+
+### 布尔值
 
 ```json
 "minecraft:destructible_by_explosion": true
 ```
 
-## 范例 (JSON Object)
+### JSON 对象
 
 ```json
 "minecraft:destructible_by_explosion": {
