@@ -15,6 +15,7 @@ export default defineConfig({
   },
   description: "A wiki of Minecraft Add-on",
   themeConfig: {
+    logo: "/logo.png",
     footer: {
       message: "如无特殊说明，本网站内容采用 CC BY-NC-SA 4.0 协议进行许可",
     },
