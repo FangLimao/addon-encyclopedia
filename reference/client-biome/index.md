@@ -1,55 +1,45 @@
-# 客户端群系文件文档
+# 客户端群系文件文档<Badge type="tip" text="^1.21.40" />
 
 > [!INFO]
 > 本文译自[Microsoft Learn](https://learn.microsoft.com/en-us/minecraft/creator/)，按照 CC BY 4.0 协议进行许可
 
-Minecraft client_biome files define client-side settings for biomes in resource packs.
+**客户端群系文件**设置了生物群系的客户端设置，它们不是「自定义生物群系」实验性玩法的一部分，也无法新增群系。
 
-This is the new preferred location for per-biome settings that used to be in biomes_client.json.
+以前这些设置会从`biomes_client.json`中读取，但 1.21.40 开始，这个文件不再从内置资源包中加载，只有使用较旧基础游戏版本的世界会使用。
 
-(As of base game version 1.21.40, biomes_client.json is no longer loaded from built-in Vanilla resource packs. That file will still be loaded for other content regardless of version, and worlds using older base game versions will also still use it.)
+## 文件格式
 
-These files are not part of the 'Custom Biomes' experiment and do not cause biome definitions to exist on their own, but they can be used to customize client-side settings of custom biomes.
+| 名称                   | 类型           | 可选 | 说明           |
+| :--------------------- | :------------- | :--- | :------------- |
+| format_version         | 字符串         | 是   | 文件的格式版本 |
+| minecraft:client_biome | 客户端群系定义 | 是   |                |
 
-## JSON format and definition
+## 客户端群系定义
 
-All biomes should specify the version that they target via the `"format_version"` field. 
+客户端群系定义包括生物群系的客户端描述和组件：
 
-## Client Biome JSON File
+| 名称        | 类型     | 可选 | 说明                             |
+| :---------- | :------- | :--- | :------------------------------- |
+| components  | 群系组件 | 是   | 要应用的群系组件                 |
+| description | 群系描述 | 是   | 非组件的设置，包括生物群系的名称 |
 
-Contains a format version and a Client Biome definition
+### 群系描述
 
-| 名称 | 类型 |  可选  | 说明 |
-|:-----------|:-----------|:-------|:-----------|
-|format_version| String| 是| Version of the JSON schema used by this file|
-|minecraft:client_biome| Object of type client biome definition| 是| A single client biome definition, containing rendering or sound settings related to a Biome defined by the game or a behavior pack|
+群系描述是非组件的设置，包括生物群系的名称
 
-## Client Biome Description
+| 名称       | 类型   | 可选 | 说明                                        |
+| :--------- | :----- | :--- | :------------------------------------------ |
+| identifier | 字符串 | 是   | 群系的 ID，必须与行为包中定义群系 ID 相对应 |
 
-Contains non-component settings for a client biome.
+### 群系组件
 
-| 名称 | 类型 |  可选  | 说明 |
-|:-----------|:-----------|:-------|:-----------|
-|identifier| String| 是| The name of the client biome, used by other features like the '/locate biome' command. Must match the name of a biome defined by the game or a behavior pack.|
-
-## Client Biome Definition
-
-Contains a description and components to define a biome.
-
-| 名称 | 类型 |  可选  | 说明 |
-|:-----------|:-----------|:-------|:-----------|
-|components| Object of type client biome components| 是| Components for this biome.|
-|description| Object of type client biome description| 是| Non-component settings, including the client biome name.|
-
-## Client Biome Components
-|Client Biome Component JSON |
-|:-----|
-|[ambient_sounds](./components/ambient_sounds.md)|
-|[biome_music](./components/biome_music.md)|
-|[fog_appearance](./components/fog_appearance.md)|
-|[sky_color](./components/sky_color.md)|
-|[water_appearance](./components/water_appearance.md)|
-
+| 组件                                                 |
+| :--------------------------------------------------- |
+| [ambient_sounds](./components/ambient_sounds.md)     |
+| [biome_music](./components/biome_music.md)           |
+| [fog_appearance](./components/fog_appearance.md)     |
+| [sky_color](./components/sky_color.md)               |
+| [water_appearance](./components/water_appearance.md) |
 
 ### 范例
 

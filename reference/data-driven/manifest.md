@@ -80,7 +80,7 @@
 ## 范例
 ### 行为包
 
-```json
+```json [beh/manifest.json]
 {
     "format_version": 2,
     "header": {
@@ -127,7 +127,7 @@
 
 ### 资源包
 
-```json
+```json [res/manifest.json]
 {
     "format_version": 2,
     "header": {
