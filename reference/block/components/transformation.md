@@ -13,7 +13,7 @@ ms.service: minecraft-bedrock-edition
 
 `minecraft:transformation` supports rotation, scaling, and translation. Rotation and scaling around a pivot is also supported. The component can be added to a whole block and/or to individual block permutations. Transformed geometries retain the same restrictions that non-transformed geometries have, such as a maximum size of 30/16 units.
 
-| minecraft:collision_box | 组件信息 |
+| minecraft:transformation | 组件信息 |
 | ----------------------- | -------- |
 | 数据类型                |          |
 | 默认值                  |          |

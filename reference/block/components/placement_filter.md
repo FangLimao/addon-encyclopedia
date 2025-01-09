@@ -13,7 +13,7 @@ ms.service: minecraft-bedrock-edition
 
 `minecraft:placement_filter` is a `JSON object` component that sets rules for under what conditions the block can be placed or survive.
 
-| minecraft:collision_box | 组件信息 |
+| minecraft:placement_filter | 组件信息 |
 | ----------------------- | -------- |
 | 数据类型                |          |
 | 默认值                  |          |

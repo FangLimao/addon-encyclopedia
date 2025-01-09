@@ -15,14 +15,14 @@ ms.service: minecraft-bedrock-edition
 
 Requires 1.21.30 format version and above. Experimental toggles required: Upcoming Creator Features (in format versions before **1.21.30**).
 
-| minecraft:collision_box | 组件信息 |
+| minecraft:redstone_conductivity | 组件信息 |
 | ----------------------- | -------- |
 | 数据类型                |          |
 | 默认值                  |          |
 
 ## 参数
 
-| Name| Type |Default Value| Description
+| 名称 | 类型 | 默认值 | 说明  |
 :-----------:|:-----------:|:-----------:|:-----------:
 | allows_wire_to_step_down | Boolean | True | Specifies if redstone wire can stair-step downward on the block. |
 | redstone_conductor | Boolean | False | Specifies if the block can be powered by redstone.|

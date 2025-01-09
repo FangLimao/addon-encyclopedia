@@ -1,33 +1,24 @@
----
-author: iconicNurdle
-ms.author: mikeam
-title: 方块组件 - minecraft:item_visual
-description: "A reference document detailing the 'item_visual' block component"
-ms.service: minecraft-bedrock-edition
----
-
 # 方块组件 - minecraft:item_visual
 
 > [!INFO]
 > 本文译自[Microsoft Learn](https://learn.microsoft.com/en-us/minecraft/creator/)，按照 CC BY 4.0 协议进行许可
 
-`minecraft:item_visual` is a `JSON Object` component that specifies the block's item representation. The object contains `geometry` and `material_instances` parameters which map to the existing `minecraft:geometry` and `minecraft:material_instances` block components respectively. 
+`minecraft:item_visual`组件设置方块的物品形式。
 
-Both `minecraft:geometry` and `minecraft:material_instances` components are required when using the `minecraft:item_visual` component.
-
-Experimental toggles required: Upcoming Creator Features
-
-| minecraft:collision_box | 组件信息 |
-| ----------------------- | -------- |
-| 数据类型                |          |
-| 默认值                  |          |
+| minecraft:item_visual | 组件信息  |
+| --------------------- | --------- |
+| 数据类型              | JSON 对象 |
+| 默认值                |           |
 
 ## 参数
+> [!NOTE]
+>
+> 该组件需要有`minecraft:geometry`和`minecraft:material_instances`组件才可以正常工作
 
-| 名称 | 默认值 | 类型 | 说明  |
-|:----------|:----------|:----------|:----------|
-| geometry| *未设置* | JSON Object | The `minecraft:geometry` component used to represent the item's geometry. See [geometry](minecraftBlock_geometry.md) for more information on component use. |
-| material_instances | *未设置*  | JSON Object| The `minecraft:material_instances` component used to represent the item's materials. See [material_instances](minecraftBlock_material_instances.md) for more information on component use. |
+| 名称               | 默认值   | 类型      | 说明                                                                                        |
+| :----------------- | :------- | :-------- | :------------------------------------------------------------------------------------------ |
+| geometry           | _未设置_ | JSON 对象 | 设置方块物品的模型，语法和[minecraft:geometry](./geometry.md)组件相同                       |
+| material_instances | _未设置_ | JSON 对象 | 设置方块物品的材质实例，语法和[minecraft:material_instances](material_instances.md)组件相同 |
 
 ## 范例
 
@@ -40,7 +31,7 @@ Experimental toggles required: Upcoming Creator Features
         "*": {
             "texture": "dirt",
             "render_method": "opaque"
-        }
+       }
     }
 },
 "minecraft:geometry": {
@@ -53,4 +44,3 @@ Experimental toggles required: Upcoming Creator Features
     }
 }
 ```
-

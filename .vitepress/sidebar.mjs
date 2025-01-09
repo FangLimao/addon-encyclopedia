@@ -109,20 +109,20 @@ export default {
             link: "/reference/block/components/geometry",
           },
           {
-            text: "",
-            link: "/reference/block/components/",
+            text: "item_visual",
+            link: "/reference/block/components/item_visual",
           },
           {
-            text: "",
-            link: "/reference/block/components/",
+            text: "light_dampening",
+            link: "/reference/block/components/light_dampening",
           },
           {
-            text: "",
-            link: "/reference/block/components/",
+            text: "loot",
+            link: "/reference/block/components/loot",
           },
           {
-            text: "",
-            link: "/reference/block/components/",
+            text: "map_color",
+            link: "/reference/block/components/map_color",
           },
           {
             text: "",
