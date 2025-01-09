@@ -39,8 +39,6 @@ The following are parameters of EACH material instance you provide:
 
 ### render_method Table
 
-For more information about custom block render distance, see the [Custom Block Render Distance](../../../../../../creator/Documents/CustomBlockRenderDistance.md).
-
 | Render Method | Description |
 |:----|:----|
 | opaque | Used for a regular block texture without an alpha layer. Does not allow for transparency or translucency |
