@@ -1,5 +1,6 @@
 import { defineConfig } from "vitepress";
 import { nav } from './nav.mjs'
+import { sidebar } from "./sidebar.mts";
 
 // https://vitepress.dev/reference/site-config
 export default defineConfig({
@@ -11,11 +12,7 @@ export default defineConfig({
   themeConfig: {
     logo: '/logo.png',
     nav: nav,
-    sidebar: {
-      tutorials: [],
-      refs: [],
-      tools: [],
-    },
+    sidebar: sidebar,
     footer: { 
       message: '如无特殊说明，本网站内容采用 CC BY-NC-SA 4.0 协议进行许可', 
     }, 

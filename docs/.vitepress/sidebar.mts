@@ -1,0 +1,124 @@
+import type { DefaultTheme } from "vitepress";
+
+export const sidebar: DefaultTheme.Config["sidebar"] = {
+  tutorials: [],
+  refs: [
+    {
+        text: "参考主页",
+        link: "/refs",
+      },
+    {
+      text: "物品组件",
+      collapsed: true,
+      items: [
+        {
+          text: "allow_off_hand",
+          link: "/refs/item/components/allow_off_hand",
+        },
+        {
+          text: "block_placer",
+          link: "/refs/item/components/block_placer",
+        },
+        {
+          text: "bundle_interaction",
+          link: "/refs/item/components/bundle_interaction",
+        },
+        {
+          text: "can_destroy_in_creative",
+          link: "/refs/item/components/can_destroy_in_creative",
+        },
+        {
+          text: "cooldown",
+          link: "/refs/item/components/cooldown",
+        },
+        {
+            text: "custom_components",
+            link: "/refs/item/components/custom_components",
+          },
+        { text: "damage", link: "/refs/item/components/damage" },
+        { text: "digger", link: "/refs/item/components/digger" },
+        {
+          text: "display_name",
+          link: "/refs/item/components/display_name",
+        },
+        {
+          text: "durability",
+          link: "/refs/item/components/durability",
+        },
+        {
+          text: "enchantable",
+          link: "/refs/item/components/enchantable",
+        },
+        {
+          text: "entity_placer",
+          link: "/refs/item/components/entity_placer",
+        },
+        { text: "food", link: "/refs/item/components/food" },
+        { text: "fuel", link: "/refs/item/components/fuel" },
+        { text: "glint", link: "/refs/item/components/glint" },
+        {
+          text: "hand_equipped",
+          link: "/refs/item/components/hand_equipped",
+        },
+        {
+          text: "hover_text_color",
+          link: "/refs/item/components/hover_text_color",
+        },
+        { text: "icon", link: "/refs/item/components/icon" },
+        {
+          text: "interact_button",
+          link: "/refs/item/components/interact_button",
+        },
+        {
+          text: "liquid_clipped",
+          link: "/refs/item/components/liquid_clipped",
+        },
+        {
+          text: "max_stack_size",
+          link: "/refs/item/components/max_stack_size",
+        },
+        {
+          text: "projectile",
+          link: "/refs/item/components/projectile",
+        },
+        { text: "rarity", link: "/refs/item/components/rarity" },
+        { text: "record", link: "/refs/item/components/record" },
+        {
+          text: "repairable",
+          link: "/refs/item/components/repairable",
+        },
+        { text: "shooter", link: "/refs/item/components/shooter" },
+        {
+          text: "should_despawn",
+          link: "/refs/item/components/should_despawn",
+        },
+        {
+          text: "stacked_by_data",
+          link: "/refs/item/components/stacked_by_data",
+        },
+        {
+          text: "storage_item",
+          link: "/refs/item/components/storage_item",
+        },
+        { text: "tags", link: "/refs/item/components/tags" },
+        {
+          text: "throwable",
+          link: "/refs/item/components/throwable",
+        },
+        {
+          text: "use_animation",
+          link: "/refs/item/components/use_animation",
+        },
+        {
+          text: "use_modifiers",
+          link: "/refs/item/components/use_modifiers",
+        },
+        {
+          text: "wearable",
+          link: "/refs/item/components/wearable",
+        },
+      ],
+    },
+  ],
+  tools: [],
+};
