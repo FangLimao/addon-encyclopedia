@@ -4,9 +4,45 @@ export const sidebar: DefaultTheme.Config["sidebar"] = {
   tutorials: [],
   refs: [
     {
-        text: "参考主页",
-        link: "/refs",
-      },
+      text: "概述",
+      link: "/refs",
+    },
+    {
+      text: "客户端群系",
+      collapsed: false,
+      items: [
+        {
+          text: "概述",
+          link: "/refs/client-biome",
+        },
+        {
+          text: "组件",
+          collapsed: true,
+          items: [
+            {
+              text: "ambient_sounds",
+              link: "/refs/client-biome/components/ambient_sounds",
+            },
+            {
+              text: "biome_music",
+              link: "/refs/client-biome/components/biome_music",
+            },
+            {
+              text: "fog_appearance",
+              link: "/refs/client-biome/components/fog_appearance",
+            },
+            {
+              text: "sky_color",
+              link: "/refs/client-biome/components/sky_color",
+            },
+            {
+              text: "water_appearance",
+              link: "/refs/client-biome/components/water_appearance",
+            },
+          ],
+        },
+      ],
+    },
     {
       text: "物品组件",
       collapsed: true,
@@ -32,9 +68,9 @@ export const sidebar: DefaultTheme.Config["sidebar"] = {
           link: "/refs/item/components/cooldown",
         },
         {
-            text: "custom_components",
-            link: "/refs/item/components/custom_components",
-          },
+          text: "custom_components",
+          link: "/refs/item/components/custom_components",
+        },
         { text: "damage", link: "/refs/item/components/damage" },
         { text: "digger", link: "/refs/item/components/digger" },
         {
