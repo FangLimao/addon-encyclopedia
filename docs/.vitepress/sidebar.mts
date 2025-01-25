@@ -1,7 +1,48 @@
 import type { DefaultTheme } from "vitepress";
 
 export const sidebar: DefaultTheme.Config["sidebar"] = {
-  tutorials: [],
+  tutorials: [
+    {
+      text: "概述",
+      link: "/tutorials"
+    },
+    {
+      text: "入门教程",
+      collapsed: false,
+      items: [
+        {
+          text: "附加包概述",
+          link: "/tutorials/start"
+        },
+        {
+          text: "了解JSON",
+          link: "/tutorials/start/json"
+        },
+        {
+          text: "第一个附加包",
+          link: "/tutorials/start/first-addon"
+        },
+        {
+          text: "本地化",
+          link: "/tutorials/start/localization"
+        },
+        {
+          text: "添加物品",
+          link: "/tutorials/start/first-item"
+        },
+      ]
+    },
+    {
+      text: "语言和本地化",
+      collapsed: false,
+      items: [
+        {
+          text: "添加语言",
+          link: "/tutorials/lang/new-language"
+        }
+      ]
+    }
+  ],
   refs: [
     {
       text: "概述",
