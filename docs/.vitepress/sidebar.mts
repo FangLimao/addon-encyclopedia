@@ -196,6 +196,88 @@ export const sidebar: DefaultTheme.Config["sidebar"] = {
         },
       ],
     },
+    {
+      text: "方块组件",
+      collapsed: true,
+      items: [
+        {
+          text: "breathability",
+          link: "/refs/block/components/breathability",
+        },
+        {
+          text: "collision_box",
+          link: "/refs/block/components/collision_box",
+        },
+        {
+          text: "crafting_table",
+          link: "/refs/block/components/crafting_table",
+        },
+        {
+          text: "custom_components",
+          link: "/refs/block/components/custom_components",
+        },
+        {
+          text: "destructible_by_explosion",
+          link: "/refs/block/components/destructible_by_explosion",
+        },
+        {
+          text: "destructible_by_mining",
+          link: "/refs/block/components/destructible_by_mining",
+        },
+        {
+          text: "display_name",
+          link: "/refs/block/components/display_name",
+        },
+        {
+          text: "flammable",
+          link: "/refs/block/components/flammable",
+        },
+        {
+          text: "friction",
+          link: "/refs/block/components/friction",
+        },
+        {
+          text: "geometry",
+          link: "/refs/block/components/geometry",
+        },
+        {
+          text: "item_visual",
+          link: "/refs/block/components/item_visual",
+        },
+        {
+          text: "light_dampening",
+          link: "/refs/block/components/light_dampening",
+        },
+        {
+          text: "loot",
+          link: "/refs/block/components/loot",
+        },
+        {
+          text: "map_color",
+          link: "/refs/block/components/map_color",
+        },
+        {
+          text: "material_instances",
+          link: "/refs/block/components/material_instances",
+        },
+        {
+          text: "placement_filter",
+          link: "/refs/block/components/placement_filter",
+        },
+        {
+          text: "redstone_conductivity",
+          link: "/refs/block/components/redstone_conductivity",
+        },
+        {
+          text: "selection_box",
+          link: "/refs/block/components/selection_box",
+        },
+        {
+          text: "transformation",
+          link: "/refs/block/components/transformation",
+        },
+      ],
+    },
   ],
   tools: [],
 };
