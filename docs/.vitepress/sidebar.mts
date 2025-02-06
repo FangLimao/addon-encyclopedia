@@ -93,6 +93,68 @@ export const sidebar: DefaultTheme.Config["sidebar"] = {
       ],
     },
     {
+      text: "实体",
+      collapsed: false,
+      items: [
+        {
+          text: "概述",
+          link: "/refs/entity",
+        },
+        {
+          text: "组件",
+          collapsed: false,
+          items: [
+            {
+              text: "移动组件",
+              collapsed: true,
+              items: [
+                {
+                  text: "movement.amphibious",
+                  link: "/refs/entity/movement-components/movement.amphibious",
+                },
+                {
+                  text: "movement.basic",
+                  link: "/refs/entity/movement-components/movement.basic",
+                },
+                {
+                  text: "movement.dolphin",
+                  link: "/refs/entity/movement-components/movement.dolphin",
+                },
+                {
+                  text: "movement.fly",
+                  link: "/refs/entity/movement-components/movement.fly",
+                },
+                {
+                  text: "movement.generic",
+                  link: "/refs/entity/movement-components/movement.generic",
+                },
+                {
+                  text: "movement.glide",
+                  link: "/refs/entity/movement-components/movement.glide",
+                },
+                {
+                  text: "movement.hover",
+                  link: "/refs/entity/movement-components/movement.hover",
+                },
+                {
+                  text: "movement.jump",
+                  link: "/refs/entity/movement-components/movement.jump",
+                },
+                {
+                  text: "movement.skip",
+                  link: "/refs/entity/movement-components/movement.skip",
+                },
+                {
+                  text: "movement.sway",
+                  link: "/refs/entity/movement-components/movement.sway",
+                },
+              ],
+            },
+          ],
+        },
+      ],
+    },
+    {
       text: "物品组件",
       collapsed: true,
       items: [
