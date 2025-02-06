@@ -1,0 +1,11 @@
+{
+  "texture_name": "atlas.terrain",
+  "resource_pack_name": "第一个附加包",
+  "padding": 8,
+  "num_mip_levels": 4,
+  "texture_data": {
+    "example.first_block": {
+      "textures": "textures/blocks/first_block"
+    }
+  }
+}

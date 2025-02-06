@@ -27,8 +27,16 @@ export const sidebar: DefaultTheme.Config["sidebar"] = {
           link: "/tutorials/start/localization"
         },
         {
-          text: "添加物品",
+          text: "第一个物品",
           link: "/tutorials/start/first-item"
+        },
+        {
+          text: "第一个方块",
+          link: "/tutorials/start/first-block"
+        },
+        {
+          text: "第一个实体",
+          link: "/tutorials/start/first-entity"
         },
       ]
     },

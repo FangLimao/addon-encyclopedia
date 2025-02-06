@@ -1,0 +1,23 @@
+{
+    "format_version": 2,
+    "header": {
+      "name": "第一个附加包",
+      "description": "我的第一个附加包！",
+      "min_engine_version": [1, 21, 0],
+      "uuid": "df1ae3b4-4539-46f4-a6f5-caaed515a5d4",
+      "version": "1.0.0"
+    },
+    "modules": [
+      {
+        "type": "data", // 如果是资源包就改成resource
+        "uuid": "1ce8eeae-f1d6-4330-bda1-e9fd427406cd",
+        "version": "1.0.0"
+      }
+    ],
+    "dependencies": [
+      {
+        "uuid": "df1ae3b4-4539-46f4-a6f5-caaed515a5d4", // 应该与你资源包header中的uuid一致
+        "version": "1.0.0" // 应该与你资源包header中的version一致
+      }
+    ]
+  }
