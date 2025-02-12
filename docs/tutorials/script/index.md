@@ -5,4 +5,4 @@
 
 ## 前置知识
 - [JavaScript](https://developer.mozilla.org/zh-CN/docs/Web/JavaScript)
-- [附加包基础](/tutorials/start)
+- 附加包基础知识
