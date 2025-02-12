@@ -61,11 +61,11 @@
         "count": 9
       },
     ],  
-    "unlock": {
+    "unlock": [
       {
         "item": "example:first_item"
       }
-    },
+    ],
     "result": {
       "item": "example:first_block"
     }

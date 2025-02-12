@@ -63,6 +63,12 @@ export const sidebar: DefaultTheme.Config["sidebar"] = {
       ]
     }
   ],
+  docs: [
+    {
+      text: "概述",
+      link: "/docs",
+    }
+  ],
   refs: [
     {
       text: "概述",
