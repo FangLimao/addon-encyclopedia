@@ -1,9 +1,9 @@
-@import url("https://fonts.googleapis.com/css?family=Noto+Serif&display=swap");
-@import url("https://fonts.googleapis.com/css?family=Noto+Sans&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Noto+Serif+SC&display=swap");
+@import url("https://fonts.googleapis.com/css?family=Noto+Sans+SC&display=swap");
 @import url("https://fonts.googleapis.com/css?family=Fira+Mono&display=swap");
 
 body {
-  font-family: "Noto Serif", sans-serif;
+  font-family: sans-serif;
 }
 
 h1,
@@ -12,7 +12,7 @@ h3,
 h4,
 h5,
 h6 {
-  font-family: "Noto Sans", sans-serif;
+  font-family: sans-serif;
 }
 
 code {

@@ -49,6 +49,28 @@ export const sidebar: DefaultTheme.Config["sidebar"] = {
       ]
     },
     {
+      text: "脚本API",
+      collapsed: false,
+      items: [
+        {
+          text: "概述",
+          link: "/tutorials/script"
+        },
+        {
+          text: "第一个脚本项目",
+          link: "/tutorials/script/start"
+        },
+        {
+          text: "事件订阅",
+          link: "/tutorials/script/event"
+        },
+        {
+          text: "使用TypeScript与自动补全",
+          link: "/tutorials/script/ts"
+        },
+      ]
+    },
+    {
       text: "语言和本地化",
       collapsed: false,
       items: [
