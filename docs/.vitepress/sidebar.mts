@@ -38,12 +38,24 @@ export const sidebar: DefaultTheme.Config["sidebar"] = {
           text: "第一个实体",
           link: "/tutorials/start/first-entity"
         },
+        {
+          text: "生成规则",
+          link: "/tutorials/start/spawn-rule"
+        },
+        {
+          text: "配方与战利品表",
+          link: "/tutorials/start/recipe-and-loot"
+        },
       ]
     },
     {
       text: "语言和本地化",
       collapsed: false,
       items: [
+        {
+          text: "多行名称的物品与方块",
+          link: "/tutorials/lang/multiline-name"
+        },
         {
           text: "添加语言",
           link: "/tutorials/lang/new-language"
